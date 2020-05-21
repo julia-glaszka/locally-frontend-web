@@ -1,0 +1,12 @@
+{
+  "name": "fake-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server -p 3333 -w db.json --routes routes.json",
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

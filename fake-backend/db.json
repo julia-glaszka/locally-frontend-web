@@ -1,0 +1,34 @@
+{
+        "all": [
+            "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ernst_Ludwig_Kirchner_-_Artistin_%28Marzella%29.jpg",
+            "https://i.pinimg.com/originals/00/01/93/00019341b54d935c7d0ecf69c8a3d644.jpg",
+            "https://www.copia-di-arte.com/kunst/ernst_ludwig_kirchner/Bildnis-Gerda.jpg",
+            "https://i.pinimg.com/originals/7a/ee/c4/7aeec494a79318ddb0025800aed65cec.jpg",
+            "https://artdone.files.wordpress.com/2018/05/francis-bacon-lying-figure-1969-fondation-beyeler-basel.jpg?w=752",
+            "https://rynekisztuka.pl/wp-content/uploads/2014/07/bacon-studium-glowy-tate.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/ed/Witkacy-Portret_Neny_Stachurskiej_3.jpg",
+            "https://grafik.rp.pl/g4a/1409191,813766,9.jpg",
+            "https://ocdn.eu/pulscms-transforms/1/5L6ktkqTURBXy80OTQzYTgzZThlYjk4NDYxZjliOGExOGI2ODE2ZTc2Ni5qcGVnkpUDACDNAyvNAciTBc0BpM0BLA",
+            "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/collection/PKA/ACO/PKA_ACO_A1978_170-001.jpg",
+            "https://i.pinimg.com/originals/bc/99/c3/bc99c30376dfa7c6324067f4a6ffd7fe.jpg"
+        ],
+        "classifieds": [
+            {
+                "id": "1",
+                "title": "New Shoes",
+                "imageUrl": "https://rukminim1.flixcart.com/image/714/857/jseyoi80/shoe/n/v/u/ck9515-8-adidas-mysblu-ftwwht-cblack-original-imafdzrzkvud2eyc.jpeg?q=50",
+                "price": 123,
+                "seller": "Olga Nowak",
+                "addedAt":  "12 May"
+            },
+            {
+                "id": "2",
+                "title": "Hoodie XS",
+                "imageUrl": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg",
+                "price": 23.32,
+                "seller": "Iza Pracz",
+                "addedAt":  "16 May"
+            }
+        ]
+  }
+

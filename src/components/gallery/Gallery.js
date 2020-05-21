@@ -1,33 +1,36 @@
 import React from 'react';
-import Image from '../image/Image.js';
+import Picture from '../picture/Picture.js';
+import fetchImages from '../../services/ImageService.js'
+import {Container} from 'uikit-react';
 
-// let uri = 'http://localhost:8080/reactive/all'
+const Gallery = () => {
+  const [images,
+    setImages] = React.useState([])
+  React.useEffect(() => {
+    getImages(setImages)
+  }, [])
 
+  return <Container>
+    <h2 class="uk-margin-medium-top uk-text-bolder uk-text-uppercase ">Local Images</h2>
+    <div
+      className="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match uk-grid"
+      uk-grid="true">
 
+      {images.map((img, i) => <Picture imageUrl={img} key={i}/>)}
 
-async function fetchImages(uri) {
-    return fetch(uri)
-    .then(res => res.json());
+    </div>
+  </Container>
+
 }
-const Gallery = ({url}) => {
-    const [images, setImages] = React.useState([])
-    React.useEffect(() => {
-      getImages(url, setImages)
-    }, [url])
-  
-    return images.map((img, i) => 
-       <Image imageUrl={img} key={i}/>
-    )
-  }
 
-  async function getImages (url, setImages) {
-    let images
-    try {
-      images = await fetchImages(url)
-      setImages(images)
-    } catch (err) {
-      return null
-    }
+async function getImages(setImages) {
+  let images
+  try {
+    images = await fetchImages()
+    setImages(images)
+  } catch (e) {
+    console.log(e)
   }
-  
+}
+
 export default Gallery;
