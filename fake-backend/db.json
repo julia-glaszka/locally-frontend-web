@@ -1,34 +1,326 @@
 {
-        "all": [
-            "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ernst_Ludwig_Kirchner_-_Artistin_%28Marzella%29.jpg",
-            "https://i.pinimg.com/originals/00/01/93/00019341b54d935c7d0ecf69c8a3d644.jpg",
-            "https://www.copia-di-arte.com/kunst/ernst_ludwig_kirchner/Bildnis-Gerda.jpg",
-            "https://i.pinimg.com/originals/7a/ee/c4/7aeec494a79318ddb0025800aed65cec.jpg",
-            "https://artdone.files.wordpress.com/2018/05/francis-bacon-lying-figure-1969-fondation-beyeler-basel.jpg?w=752",
-            "https://rynekisztuka.pl/wp-content/uploads/2014/07/bacon-studium-glowy-tate.jpg",
-            "https://upload.wikimedia.org/wikipedia/commons/e/ed/Witkacy-Portret_Neny_Stachurskiej_3.jpg",
-            "https://grafik.rp.pl/g4a/1409191,813766,9.jpg",
-            "https://ocdn.eu/pulscms-transforms/1/5L6ktkqTURBXy80OTQzYTgzZThlYjk4NDYxZjliOGExOGI2ODE2ZTc2Ni5qcGVnkpUDACDNAyvNAciTBc0BpM0BLA",
-            "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/collection/PKA/ACO/PKA_ACO_A1978_170-001.jpg",
-            "https://i.pinimg.com/originals/bc/99/c3/bc99c30376dfa7c6324067f4a6ffd7fe.jpg"
-        ],
-        "classifieds": [
-            {
+    "all": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ernst_Ludwig_Kirchner_-_Artistin_%28Marzella%29.jpg",
+        "https://i.pinimg.com/originals/00/01/93/00019341b54d935c7d0ecf69c8a3d644.jpg",
+        "https://www.copia-di-arte.com/kunst/ernst_ludwig_kirchner/Bildnis-Gerda.jpg",
+        "https://i.pinimg.com/originals/7a/ee/c4/7aeec494a79318ddb0025800aed65cec.jpg",
+        "https://artdone.files.wordpress.com/2018/05/francis-bacon-lying-figure-1969-fondation-beyeler-basel.jpg?w=752",
+        "https://rynekisztuka.pl/wp-content/uploads/2014/07/bacon-studium-glowy-tate.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Witkacy-Portret_Neny_Stachurskiej_3.jpg",
+        "https://grafik.rp.pl/g4a/1409191,813766,9.jpg",
+        "https://ocdn.eu/pulscms-transforms/1/5L6ktkqTURBXy80OTQzYTgzZThlYjk4NDYxZjliOGExOGI2ODE2ZTc2Ni5qcGVnkpUDACDNAyvNAciTBc0BpM0BLA",
+        "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/collection/PKA/ACO/PKA_ACO_A1978_170-001.jpg",
+        "https://i.pinimg.com/originals/bc/99/c3/bc99c30376dfa7c6324067f4a6ffd7fe.jpg"
+    ],
+    "classifieds": [{
+            "id": "1",
+            "title": "New Shoes",
+            "imageUrl": "https://rukminim1.flixcart.com/image/714/857/jseyoi80/shoe/n/v/u/ck9515-8-adidas-mysblu-ftwwht-cblack-original-imafdzrzkvud2eyc.jpeg?q=50",
+            "price": 123,
+            "seller": {
                 "id": "1",
-                "title": "New Shoes",
-                "imageUrl": "https://rukminim1.flixcart.com/image/714/857/jseyoi80/shoe/n/v/u/ck9515-8-adidas-mysblu-ftwwht-cblack-original-imafdzrzkvud2eyc.jpeg?q=50",
-                "price": 123,
-                "seller": "Olga Nowak",
-                "addedAt":  "12 May"
+                "name": "Olga Nowak"
             },
-            {
+            "addedAt": "12 May",
+            "views": 123
+        },
+        {
+            "id": "2",
+            "title": "Hoodie XS",
+            "imageUrl": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg",
+            "price": 23.32,
+            "seller": {
                 "id": "2",
-                "title": "Hoodie XS",
-                "imageUrl": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg",
-                "price": 23.32,
-                "seller": "Iza Pracz",
-                "addedAt":  "16 May"
-            }
-        ]
-  }
+                "name": "Iza Pracz"
+            },
+            "addedAt": "16 May",
+            "views": 123
+        },
+        {
+            "id": "46",
+            "title": "Spodnie XS",
+            "imageUrl": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706",
+            "price": 50,
+            "seller": {
+                "id": "2",
+                "name": "Iza Pracz"
+            },
+            "addedAt": "6 May",
+            "views": 123
+        },
+        {
+            "id": "44",
+            "title": "Skarpetki, NOWE, 38",
+            "imageUrl": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg",
+            "price": 4.99,
+            "seller": {
+                "id": "33",
+                "name": "Hvlie Vitkievicz"
+            },
+            "addedAt": "18 May",
+            "views": 123
+        },
+        {
+            "id": "45",
+            "title": "Eleganckie skórzane rękawiczki, stan idealny",
+            "imageUrl": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE",
+            "price": 30,
+            "seller": {
+                "id": "33",
+                "name": "Hvlie Vitkievicz"
+            },
+            "addedAt": "16 May",
+            "views": 123
+        },
+        {
+            "id": "46",
+            "title": "Spodnie XS",
+            "imageUrl": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692",
+            "price": 25,
+            "seller": {
+                "id": "33",
+                "name": "Hvlie Vitkievicz"
+            },
+            "addedAt": "6 May",
+            "views": 123
+        },
+   
+        {
+            "id": "122",
+            "title": "Skarpetki Olgi, NOWE, 38",
+            "imageUrl": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg",
+            "price": 4.99,
+            "seller": {
+                "id": "1",
+                "name": "Olga Nowak"
+            },
+            "addedAt": "18 May",
+            "views": 123
+        },
+        {
+            "id": "123",
+            "title": "Dresy babyblue",
+            "imageUrl": "https://23youngwear.com/334-large_default/dresy-babyblue.jpg",
+            "price": 99,
+            "seller": {
+                "id": "1",
+                "name": "Olga Nowak"
+            },
+            "addedAt": "16 May",
+            "views": 123
+        },
+        {
+            "id": "124",
+            "title": "Spodnie XXL",
+            "imageUrl": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg",
+            "price": 50,
+            "seller": {
+                "id": "1",
+                "name": "Olga Nowak"
+            },
+            "addedAt": "6 May",
+            "views": 123
+        },
+        {
+            "id": "125",
+            "title": "Nasturcja, nasiona",
+            "imageUrl": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg",
+            "price": 1.99,
+            "seller": {
+                "id": "1",
+                "name": "Olga Nowak"
+            },
+            "addedAt": "16 May",
+            "views": 123
+        }
+    ],
+    "accountSettings": {
+        "id": "2212323312",
+        "name": "Hvlie Vitkievicz",
+        "username": "hvlie",
+        "location": "Toruń",
+        "pricing": "Pro",
+        "imageUrl": "https://getuikit.com/docs/images/avatar.jpg"
+    },
+    "myClassifieds": 
+        [{
+            "id": "44",
+            "title": "Skarpetki, NOWE, 38",
+            "imageUrl": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg",
+            "price": 4.99,
+            "seller": {
+                "id": "33",
+                "name": "Hvlie Vitkievicz"
+            },
+            "addedAt": "18 May",
+            "views": 123
+        },
+        {
+            "id": "45",
+            "title": "Eleganckie skórzane rękawiczki, stan idealny",
+            "imageUrl": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE",
+            "price": 30,
+            "seller": {
+                "id": "33",
+                "name": "Hvlie Vitkievicz"
+            },
+            "addedAt": "16 May",
+            "views": 123
+        },
+        {
+            "id": "46",
+            "title": "Spodnie XS",
+            "imageUrl": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692",
+            "price": 25,
+            "seller": {
+                "id": "33",
+                "name": "Hvlie Vitkievicz"
+            },
+            "addedAt": "6 May",
+            "views": 123
+        }
+    ],
+    "userProfile": [{
+            "id": "33",
+            "name": "Hvlie Vitkievicz",
+            "username": "hvlie",
+            "location": "Toruń",
+            "isOnline": true,
+            "imageUrl": "https://getuikit.com/docs/images/avatar.jpg",
+            "classifieds_count": 34,
+            "classifieds": [{
+                    "id": "44",
+                    "title": "Skarpetki, NOWE, 38",
+                    "imageUrl": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg",
+                    "price": 4.99,
+                    "seller": {
+                        "id": "33",
+                        "name": "Hvlie Vitkievicz"
+                    },
+                    "addedAt": "18 May",
+                    "views": 123
+                },
+                {
+                    "id": "45",
+                    "title": "Eleganckie skórzane rękawiczki, stan idealny",
+                    "imageUrl": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE",
+                    "price": 30,
+                    "seller": {
+                        "id": "33",
+                        "name": "Hvlie Vitkievicz"
+                    },
+                    "addedAt": "16 May",
+                    "views": 123
+                },
+                {
+                    "id": "46",
+                    "title": "Spodnie XS",
+                    "imageUrl": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692",
+                    "price": 25,
+                    "seller": {
+                        "id": "33",
+                        "name": "Hvlie Vitkievicz"
+                    },
+                    "addedAt": "6 May",
+                    "views": 123
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Olga Nowak",
+            "username": "olgaa",
+            "location": "Toruń",
+            "isOnline": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cheryl_Ann_Krause.jpg",
+            "classifieds_count": 34,
+            "classifieds": [
 
+                {
+                    "id": "122",
+                    "title": "Skarpetki Olgi, NOWE, 38",
+                    "imageUrl": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg",
+                    "price": 4.99,
+                    "seller": {
+                        "id": "1",
+                        "name": "Olga Nowak"
+                    },
+                    "addedAt": "18 May",
+                    "views": 123
+                },
+                {
+                    "id": "123",
+                    "title": "Dresy babyblue",
+                    "imageUrl": "https://23youngwear.com/334-large_default/dresy-babyblue.jpg",
+                    "price": 99,
+                    "seller": {
+                        "id": "1",
+                        "name": "Olga Nowak"
+                    },
+                    "addedAt": "16 May",
+                    "views": 123
+                },
+                {
+                    "id": "124",
+                    "title": "Spodnie XS",
+                    "imageUrl": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706",
+                    "price": 50,
+                    "seller": {
+                        "id": "1",
+                        "name": "Olga Nowak"
+                    },
+                    "addedAt": "6 May",
+                    "views": 123
+                },
+                {
+                    "id": "125",
+                    "title": "Nasturcja, nasiona",
+                    "imageUrl": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg",
+                    "price": 1.99,
+                    "seller": {
+                        "id": "1",
+                        "name": "Olga Nowak"
+                    },
+                    "addedAt": "16 May",
+                    "views": 123
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Iza Pracz",
+            "username": "izkaa",
+            "location": "Toruń",
+            "isOnline": false,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jroxychix.jpeg",
+            "classifieds_count": 34,
+            "classifieds": [
+              
+                {
+                    "id": "46",
+                    "title": "Spodnie XXL",
+                    "imageUrl": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg",
+                    "price": 50,
+                    "seller": {
+                        "id": "2",
+                        "name": "Iza Pracz"
+                    },
+                    "addedAt": "6 May",
+                    "views": 123
+                },
+                {
+                    "id": "47",
+                    "title": "Hoodie XS",
+                    "imageUrl": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg",
+                    "price": 23.32,
+                    "seller": {
+                        "id": "2",
+                        "name": "Iza Pracz"
+                    },
+                    "addedAt": "16 May",
+                    "views": 123
+                }
+            ]
+        }
+    ]
+}
