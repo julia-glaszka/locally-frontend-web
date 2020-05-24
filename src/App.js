@@ -1,12 +1,12 @@
 import React from 'react';
-import Gallery from './components/gallery/Gallery.js';
+import GalleryPanel from './components/gallery/GalleryPanel.js';
 import './App.css';
 import css from 'uikit/dist/css/uikit.css';
 import Icons from 'uikit/dist/js/uikit-icons';
 import UIkit from 'uikit/dist/js/uikit.js'
 import ClassifiedsPanel from './components/classifieds/ClassifiedsPanel.js';
 import get from './services/apiService.js';
-import url from './config/url.js';
+import url from './config/endpoints.js';
 import CustomFooter from './components/common/CustomFooter.js';
 import CustomNavbar from './components/common/CustomNavbar.js';
 UIkit.use(Icons);
@@ -54,7 +54,7 @@ function App() {
       
       <div className="uk-container">
           <ClassifiedsPanel title="Marketplace" classifieds={classifieds}></ClassifiedsPanel>
-          <Gallery title="Local Pictures" images={images}/>
+          <GalleryPanel title="Local Pictures" images={images}/>
         </div>
     <CustomFooter/>
     </div>

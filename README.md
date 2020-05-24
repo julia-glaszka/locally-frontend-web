@@ -34,3 +34,11 @@ You will also see any lint errors in the console.
 - library uikit-react was removed and replaced with clean uikit
 - the project structure was rebuilt and divided into simpler components
 - added preview of user's classifieds (classifieds management panel)
+
+
+### Day third
+1. ![Third day](./screenshots/24-05-2020-1.png "Third day")
+#### Updates
+- moved routing config to separated file
+- classified site and slider
+- repair inconsistent database

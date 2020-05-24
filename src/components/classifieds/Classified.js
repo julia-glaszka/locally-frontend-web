@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Classified = ({classified}) => {
-  let userUrl = '/user/' + classified.seller.id
+  let userUrl = '/users/' + classified.seller.id
+  let classifiedUrl = '/classifieds/' + classified.id
   return <div className="uk-margin-bottom ">
    <div className="uk-card uk-card-default uk-card-hover ">
 
@@ -17,7 +18,7 @@ const Classified = ({classified}) => {
     </div>
 
     <div className="uk-card-body">
-      <h3 className="uk-card-title">{classified.title}</h3>
+      <h3 className="uk-card-title"><a href={classifiedUrl}>{classified.title}</a></h3>
       <p>{classified.addedAt}</p>
       <a href={userUrl}>{classified.seller.name}</a>
 

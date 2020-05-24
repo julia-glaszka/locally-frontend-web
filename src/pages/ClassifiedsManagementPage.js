@@ -3,7 +3,7 @@ import UserProfile from '../components/user-profile/UserProfile.js';
 import get from '../services/apiService.js';
 // loads the Icon plugin
 
-import url from '../config/url.js';
+import url from '../config/endpoints.js';
 import CustomNavbar from '../components/common/CustomNavbar.js';
 import CustomFooter from '../components/common/CustomFooter.js';
 import ClassifiedsManagementPanel from '../components/classifieds/ClassifiedsManagementPanel.js';
@@ -26,14 +26,15 @@ const ClassifiedsManagementPage = () => {
       }
       getClassifieds()
     },[])
-  return <div >
+  return <div>
     <CustomNavbar/>
+    
     <div className="uk-container uk-margin-medium-top">
-     {classifieds ? <ClassifiedsManagementPanel classifieds={classifieds}/> : "shit"}
+     {classifieds ? <ClassifiedsManagementPanel classifieds={classifieds}/> :"These account didn't exists"}
     </div>
 
- <CustomFooter/>
-</div>
+      <CustomFooter/>
+    </div>
 
 }
 

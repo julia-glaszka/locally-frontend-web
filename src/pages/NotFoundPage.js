@@ -5,7 +5,7 @@ import get from '../services/apiService.js';
 import { useParams } from 'react-router-dom';
 import CustomFooter from '../components/common/CustomFooter.js';
 import CustomNavbar from '../components/common/CustomNavbar.js';
-import url from '../config/url.js';
+import url from '../config/endpoints.js';
 import CustomNotFound from '../components/common/CustomNotFound.js';
 
 const NotFoundPage = () => {

@@ -1,5 +1,4 @@
 import React from 'react';
-import fetchProfile from '../../services/UserProfileService.js'
 import ProfileInfo from './ProfileInfo.js'
 import ClassifiedsPanel from '../classifieds/ClassifiedsPanel.js';
 

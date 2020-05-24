@@ -40,22 +40,22 @@ const CustomNavbar = () => {
               <div className="uk-navbar-dropdown uk-navbar-dropdown-bottom-right">
                 <ul className="uk-nav uk-navbar-dropdown-nav">
                   <li>
-                    <a href="/classifieds">Classifieds</a>
+                    <a href="/account/classifieds">Classifieds</a>
                   </li>
                   <li>
-                    <a href="/pinned">Pinned</a>
+                    <a href="/account/pinned">Pinned</a>
                   </li>
                   <li >
-                    <a href="/pictures">Pictures</a>
+                    <a href="/account/pictures">Pictures</a>
                   </li>
                   <li >
-                    <a href="/announcements">Announcements</a>
+                    <a href="/account/announcements">Announcements</a>
                   </li>
                   <li >
-                    <a href="/groups">Groups</a>
+                    <a href="/account/groups">Groups</a>
                   </li>
                   <li >
-                    <a href="/settings">Settings</a>
+                    <a href="/account/settings">Settings</a>
                   </li>
                   <hr/>
                   <li>

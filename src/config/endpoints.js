@@ -1,11 +1,10 @@
-import config from '../config/config.js';
+import config from './config.js';
 
 const dev = {
     init: () => {},
-    
     imagesUrl: `${config.apiUrl}/reactive/all`,
     classifiedsUrl: `${config.apiUrl}/reactive/classifieds`,
-    userProfileDetailsUrl: `${config.apiUrl}/reactive/userProfile`,
+    userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
     userClassifieds: `${config.apiUrl}/reactive/myClassifieds`
   };
   
@@ -13,7 +12,7 @@ const dev = {
     init: () => {},
     imagesUrl: `${config.apiUrl}/reactive/all`,
     classifiedsUrl: `${config.apiUrl}/reactive/classifieds`,
-    userProfileDetailsUrl: `${config.apiUrl}/reactive/userProfile`,
+    userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
     userClassifieds: `${config.apiUrl}/reactive/myClassifieds`
   };
   
@@ -21,22 +20,22 @@ const dev = {
     init: () => {},
     imagesUrl: `${config.apiUrl}/reactive/all`,
     classifiedsUrl: `${config.apiUrl}/reactive/classifieds`,
-    userProfileDetailsUrl: `${config.apiUrl}/reactive/userProfile`,
+    userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
     userClassifieds: `${config.apiUrl}/reactive/myClassifieds`
   };
   
-  let url;
+  let endpoints;
   
   if (process.env.REACT_APP_STAGE === 'production') {
-    url = prod;
+    endpoints = prod;
   } else if (process.env.REACT_APP_STAGE === 'local') {
-    url = local;
+    endpoints = local;
   } else {
-    url = dev;
+    endpoints = dev;
   }
   
-  url.init();
+  endpoints.init();
   
   export default {
-    ...url
+    ...endpoints
   };

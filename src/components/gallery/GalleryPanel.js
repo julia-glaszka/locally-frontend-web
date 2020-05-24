@@ -1,7 +1,7 @@
 import React from 'react';
 import Picture from '../picture/Picture.js';
 
-const Gallery = ({images, title}) => {
+const GalleryPanel = ({images, title}) => {
   
   return <div className="uk-container">
     <h2 className="uk-margin-medium-top uk-text-bolder uk-text-uppercase ">
@@ -18,4 +18,4 @@ const Gallery = ({images, title}) => {
 
 }
 
-export default Gallery;
+export default GalleryPanel;

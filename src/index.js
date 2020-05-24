@@ -4,10 +4,7 @@ import './index.css';
 import App from './App';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
-import UserProfilePage from './pages/UserProfilePage';
-import NotFoundPage from './pages/NotFoundPage.js';
-import ClassifiedsManagementPage from './pages/ClassifiedsManagementPage';
-
+import { routes } from "./config/routes.js";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,10 +12,10 @@ ReactDOM.render(
   <Router>
     <div>
       <Switch>
-        <Route exact path="/" component={App} key="main"/>
-        <Route path="/user/:id" component={UserProfilePage} key="profile" />
-        <Route path="/account/classifieds" component={ClassifiedsManagementPage} key="ownClassifieds" />
-        <Route path="*" exact component={NotFoundPage} />
+        
+      {routes.map(route => (
+        <Route {...route} />
+      ))}
       </Switch>
     
 

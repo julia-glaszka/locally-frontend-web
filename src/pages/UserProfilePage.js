@@ -4,7 +4,7 @@ import get from '../services/apiService.js';
 // loads the Icon plugin
 import { useParams } from 'react-router-dom';
 
-import url from '../config/url.js';
+import endpoints from '../config/endpoints.js';
 import CustomNavbar from '../components/common/CustomNavbar.js';
 import CustomFooter from '../components/common/CustomFooter.js';
 
@@ -17,7 +17,7 @@ const UserProfilePage = () => {
     React.useEffect(() => {
       async function getUserProfile() {
         let profile
-        let userUrl = url.userProfileDetailsUrl+ '/' + id
+        let userUrl = endpoints.userProfileDetailsUrl+ '/' + id
         try {
           
           profile = await get(userUrl)
@@ -30,14 +30,13 @@ const UserProfilePage = () => {
       }
       getUserProfile()
     },[])
-  return     <div >
+  return <div>
     <CustomNavbar/>
     <div className="uk-container uk-margin-medium-top">
-     {userProfile ? <UserProfile userProfile={userProfile}/> : "shit"}
+     {userProfile ? <UserProfile userProfile={userProfile}/> : "nothing"}
     </div>
-
- <CustomFooter/>
-</div>
+    <CustomFooter/>
+  </div>
 
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const CustomFooter = () => {
-    return    <footer className="uk-section uk-section-primary  uk-padding-remove-bottom">
+    return    <footer className="uk-section uk-vertical-align-bottom uk-section-primary  uk-padding-remove-bottom">
     <div className="uk-container">
       <div className="uk-grid uk-grid-large">
         <div className="uk-width-2-3@m">
