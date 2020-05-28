@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchBox from '../search/SearchBox';
 
 const CustomNavbar = () => {
   return <div
@@ -10,23 +11,7 @@ const CustomNavbar = () => {
           <a className="uk-navbar-item uk-logo" href="/">Locally</a>
         </div>
 
-        <div className="uk-navbar-center">
-          <form id="search-form" action="">
-            <div className="uk-inline uk-width-1-1">
-              <span className="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: search"></span>
-              <input
-                className="uk-border-pill uk-input  uk-form-blank uk-width-1-1 search-fld"
-                type="text"
-                placeholder="Type your search"
-                autoFocus/>
-              <a
-                href="#"
-                className="search-filter"
-                data-uk-filter-control="[data-tags*='']"
-                hidden>Search</a>
-            </div>
-          </form>
-        </div>
+      <SearchBox/>
 
         <div className="uk-navbar-right ">
           <ul className="uk-navbar-nav">

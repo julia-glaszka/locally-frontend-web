@@ -29,7 +29,7 @@ const UserProfilePage = () => {
         }
       }
       getUserProfile()
-    },[])
+    },[id])
   return <div>
     <CustomNavbar/>
     <div className="uk-container uk-margin-medium-top">

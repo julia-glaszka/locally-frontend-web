@@ -1,8 +1,5 @@
 import React from 'react';
-import UserProfile from '../components/user-profile/UserProfile.js';
 import get from '../services/apiService.js';
-// loads the Icon plugin
-
 import url from '../config/endpoints.js';
 import CustomNavbar from '../components/common/CustomNavbar.js';
 import CustomFooter from '../components/common/CustomFooter.js';

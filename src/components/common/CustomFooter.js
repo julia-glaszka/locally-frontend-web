@@ -26,7 +26,7 @@ const CustomFooter = () => {
 
     <div className="uk-text-center uk-padding">
       <span className="uk-text-small uk-text-muted">© 2020
-        <a href="#">Locally</a>
+        <a href="/">Locally</a>
       </span>
     </div>
   </footer>

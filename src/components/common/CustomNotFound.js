@@ -14,11 +14,11 @@ const CustomNotFound = () => {
                       </h4>
                     
                       <div className="uk-button-group">
-                        <a className="uk-button uk-button-default" onClick={() => history.goBack()}> 
+                        <button className="uk-button uk-button-default"  onClick={() => history.goBack()}> 
                          Back 
-                         </a> 
-                            <a className="uk-button uk-button-default " href="/">
-                               home </a>
+                         </button> 
+                            <button className="uk-button uk-button-default " href="/">
+                               home </button>
                       </div>
                   </div>
               </div>

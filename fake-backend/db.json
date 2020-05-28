@@ -12,6 +12,30 @@
         "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/collection/PKA/ACO/PKA_ACO_A1978_170-001.jpg",
         "https://i.pinimg.com/originals/bc/99/c3/bc99c30376dfa7c6324067f4a6ffd7fe.jpg"
     ],
+    "suggest": [{
+        "title": "spodnie",
+        "suggestions": [
+            "spodnie jeansowe", 
+            "spodnie XS", 
+            "spodnie dresowe"
+        ]
+    },
+    {
+        "title": "spódnica",
+        "suggestions": [
+            "różowa spódnica", 
+            "spódniczka elegancka", 
+            "spódnica rozkloszowana"
+        ]
+    }, {
+        "title": "koszulka",
+        "suggestions": [
+            "koszulka z nadrukiem", 
+            "koszulka oversize", 
+            "koszulka z napisem"
+        ]
+    }
+    ],
     "classifieds": [{
             "id": "1",
             "title": "New Shoes",
@@ -78,8 +102,8 @@
             "title": "Eleganckie skórzane rękawiczki, stan idealny",
             "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
 
-            "imageUrl": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE",
-            "images": ["https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE"],
+            "imageUrl": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg",
+            "images": ["https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"],
             "price": 30,
             "seller": {
                 "id": "33",
@@ -193,8 +217,8 @@
             "title": "Eleganckie skórzane rękawiczki, stan idealny",
             "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
 
-            "imageUrl": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE",
-            "images": ["https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE"],
+            "imageUrl": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg",
+            "images": ["https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"],
             "price": 30,
             "seller": {
                 "id": "33",
@@ -247,8 +271,8 @@
                 "title": "Eleganckie skórzane rękawiczki, stan idealny",
                 "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
     
-                "imageUrl": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE",
-                "images": ["https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/84158684_490515018562172_28107856686407626_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5t0SyZxKNeIAX8Eoapo&oh=a9a202a9a73babe67418ff1cf041349d&oe=5ECBBBCE"],
+                "imageUrl": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg",
+                "images": ["https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"],
                 "price": 30,
                 "seller": {
                     "id": "33",

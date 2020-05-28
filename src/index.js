@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
-import App from './App';
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import { routes } from "./config/routes.js";
 
@@ -12,13 +12,10 @@ ReactDOM.render(
   <Router>
     <div>
       <Switch>
-        
       {routes.map(route => (
         <Route {...route} />
       ))}
       </Switch>
-    
-
     </div>
   </Router>
   </React.StrictMode>,

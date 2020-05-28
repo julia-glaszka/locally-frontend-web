@@ -3,6 +3,7 @@ import UserProfilePage from '../pages/UserProfilePage';
 import NotFoundPage from '../pages/NotFoundPage.js';
 import ClassifiedsManagementPage from '../pages/ClassifiedsManagementPage';
 import ClassifiedDetailsPage from '../pages/ClassifiedDetailsPage';
+import ClassifiedsPage from '../pages/ClassifiedsPage.js';
 
 export const routes = [
   {
@@ -23,6 +24,11 @@ export const routes = [
     path: "/classifieds/:id",
     component: ClassifiedDetailsPage,
     key: "Classifieds details"
+  },
+  {
+    path: "/classifieds",
+    component: ClassifiedsPage,
+    key: "Classifieds"
   },
   {
     exact: true,

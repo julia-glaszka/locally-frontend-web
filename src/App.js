@@ -52,6 +52,7 @@ function App() {
      <CustomNavbar/>
 
       
+
       <div className="uk-container">
           <ClassifiedsPanel title="Marketplace" classifieds={classifieds}></ClassifiedsPanel>
           <GalleryPanel title="Local Pictures" images={images}/>

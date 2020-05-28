@@ -9,7 +9,7 @@ const ProfileInfo = ({user}) => {
   <div className="uk-card-header">
       <div className="uk-grid-small uk-flex-middle">
           <div className="uk-width-auto">
-              <img className="uk-border-circle" width="40" height="40" src={user.imageUrl}/>  
+              <img className="uk-border-circle" width="40" height="40" src={user.imageUrl} alt="user"/>  
           </div>
           <div className="uk-width-expand">
 

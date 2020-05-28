@@ -8,13 +8,12 @@ import CustomNavbar from '../components/common/CustomNavbar.js';
 import CustomFooter from '../components/common/CustomFooter.js';
 import Slider from '../components/common/Slider.js';
 import ClassifiedInfo from '../components/classifieds/ClassifiedInfo.js';
-import UserProfile from '../components/user-profile/UserProfile.js';
 import ShortProfileInfo from '../components/user-profile/ShortProfileInfo.js';
 
 const ClassifiedDetailsPage = () => {
   const [classified,
     setClassified] = React.useState(null)
-  const {id} = useParams();
+  const { id } = useParams();
 
   React.useEffect(() => {
     async function getClassified() {
@@ -32,7 +31,7 @@ const ClassifiedDetailsPage = () => {
       }
     }
     getClassified()
-  }, [])
+  }, [id])
   
   
 
