@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileInfo from './ProfileInfo.js'
-import ClassifiedsPanel from '../classifieds/ClassifiedsPanel.js';
+import ClassifiedsPanel from '../classifieds-panel/ClassifiedsPanel.js';
 
 const UserProfile = ({userProfile}) => {
   let classif = userProfile.classifieds

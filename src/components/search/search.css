@@ -1,0 +1,85 @@
+
+.default-list  {
+    backdrop-filter: blur(100px);
+    height: auto;
+    transition:  0.3s ease;
+    margin-top: 0;
+    list-style-type: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 10px;
+
+  }
+
+ul.whenVisible {
+    height: auto;
+    transition:  0.3s ease;
+    margin-top: 0;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.suggestion-container {
+        position: absolute;
+        transition: height 0.3s ease;
+        box-sizing: border-box;
+        width: 100%;
+        z-index: 200;
+}
+input.whenVisible  {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 100%;
+    padding: 10px !important;
+    box-shadow: 0 10px 10px rgba(100,100,100,0.3);
+  }
+
+  .default-list > li  {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    transition: 0.3s ease;
+    padding-left: 10px;
+
+  } 
+  .default-list > li:hover  {
+  background-color: rgba(255, 255, 255, 0.3);
+  } 
+
+  .default-list > li:last-child  {
+    padding-top: 10px;
+    border-bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  } 
+  input.whenVisible {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .suggestions {
+    position: absolute;
+    transition: height 0.3s ease;
+    box-sizing: border-box;
+    width: 100%;
+  }

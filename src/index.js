@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Navbar from './components/common/Navbar.js';
+import CustomFooter from './components/common/CustomFooter.js';
 import './index.css';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
@@ -8,9 +9,10 @@ import { routes } from "./config/routes.js";
 
 ReactDOM.render(
   <React.StrictMode>
-  
+      <Navbar/>
+    
   <Router>
-    <div>
+    <div style={{minHeight: "100vh"}}>
       <Switch>
       {routes.map(route => (
         <Route {...route} />
@@ -18,6 +20,8 @@ ReactDOM.render(
       </Switch>
     </div>
   </Router>
+  <CustomFooter/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

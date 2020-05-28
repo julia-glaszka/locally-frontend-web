@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from '../picture/Picture.js';
+import Picture from './Picture.js';
 
 const GalleryPanel = ({images, title}) => {
   

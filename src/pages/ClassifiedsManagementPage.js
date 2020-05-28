@@ -1,9 +1,7 @@
 import React from 'react';
 import get from '../services/apiService.js';
 import url from '../config/endpoints.js';
-import CustomNavbar from '../components/common/CustomNavbar.js';
-import CustomFooter from '../components/common/CustomFooter.js';
-import ClassifiedsManagementPanel from '../components/classifieds/ClassifiedsManagementPanel.js';
+import ClassifiedsManagementPanel from '../components/classifieds-panel/ClassifiedsManagementPanel.js';
 
 const ClassifiedsManagementPage = () => {
   const [classifieds,
@@ -24,13 +22,11 @@ const ClassifiedsManagementPage = () => {
       getClassifieds()
     },[])
   return <div>
-    <CustomNavbar/>
-    
+   
     <div className="uk-container uk-margin-medium-top">
      {classifieds ? <ClassifiedsManagementPanel classifieds={classifieds}/> :"These account didn't exists"}
     </div>
 
-      <CustomFooter/>
     </div>
 
 }

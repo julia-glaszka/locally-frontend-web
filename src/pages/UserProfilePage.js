@@ -5,8 +5,6 @@ import get from '../services/apiService.js';
 import { useParams } from 'react-router-dom';
 
 import endpoints from '../config/endpoints.js';
-import CustomNavbar from '../components/common/CustomNavbar.js';
-import CustomFooter from '../components/common/CustomFooter.js';
 
 const UserProfilePage = () => {
   const [userProfile,
@@ -31,11 +29,9 @@ const UserProfilePage = () => {
       getUserProfile()
     },[id])
   return <div>
-    <CustomNavbar/>
     <div className="uk-container uk-margin-medium-top">
      {userProfile ? <UserProfile userProfile={userProfile}/> : "nothing"}
     </div>
-    <CustomFooter/>
   </div>
 
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Classified from './Classified.js';
+import ClassifiedCard from './ClassifiedCard.js';
 
 const ClassifiedsPanel = ({title, classifieds}) => {
   return <div className="uk-container" >
@@ -7,12 +7,11 @@ const ClassifiedsPanel = ({title, classifieds}) => {
       {title} 
     </h2>
     <div className="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match uk-grid">
-      {
+      { classifieds.length ?
       classifieds.map((item, i) => 
-        <Classified classified={item} key={i}/>
-        )
+        <ClassifiedCard classified={item} key={i}/>
+        ) : <p> There isn't any classifieds. Try to search again :( </p>
       }
-
     </div>
   </div>
 

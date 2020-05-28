@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ClassifiedPreview from './ClassifiedPreview.js';
+import ClassifiedPreview from '../classified-management/ClassifiedPreview.js';
 
 const ClassifiedsManagementPanel = ({title, classifieds}) => {
   return <div className="uk-container" >

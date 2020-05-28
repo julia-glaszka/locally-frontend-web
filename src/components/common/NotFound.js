@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-const CustomNotFound = () => {
+const NotFound = () => {
     let history = useHistory();
   return <div> <div className="uk-section-large">
       <div className="uk-container uk-container-large">
@@ -29,4 +29,4 @@ const CustomNotFound = () => {
 
 }
 
-export default CustomNotFound;
+export default NotFound;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Classified = ({classified}) => {
+const ClassifiedCard = ({classified}) => {
   let userUrl = '/users/' + classified.seller.id
   let classifiedUrl = '/classifieds/' + classified.id
   return <div className="uk-margin-bottom ">
@@ -28,4 +28,4 @@ const Classified = ({classified}) => {
   </div>
 }
 
-export default Classified;
+export default ClassifiedCard;

@@ -1,18 +1,14 @@
 import React from 'react';
-import SearchBox from '../search/SearchBox';
 
-const CustomNavbar = () => {
+const Navbar = () => {
   return <div
     className="uk-box-shadow-large	"
-    uk-sticky="animation: uk-animation-slide-top;">
+    uk-sticky="">
     <div>
       <nav className="uk-navbar-container uk-navbar" uk-navbar="">
         <div className="uk-navbar-left">
           <a className="uk-navbar-item uk-logo" href="/">Locally</a>
         </div>
-
-      <SearchBox/>
-
         <div className="uk-navbar-right ">
           <ul className="uk-navbar-nav">
             <li className="">
@@ -59,4 +55,4 @@ const CustomNavbar = () => {
 
 }
 
-export default CustomNavbar;
+export default Navbar;

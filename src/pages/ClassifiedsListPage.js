@@ -1,11 +1,11 @@
 import React from 'react';
-import ClassifiedsPanel from '../components/classifieds/ClassifiedsPanel.js';
+import ClassifiedsPanel from '../components/classifieds-panel/ClassifiedsPanel.js';
 import get from '../services/apiService.js';
 import url from '../config/endpoints.js';
-import CustomFooter from '../components/common/CustomFooter.js';
-import CustomNavbar from '../components/common/CustomNavbar.js';
+
 import queryString from 'query-string';
 import { useLocation} from "react-router-dom";
+import SearchBox from '../components/search/SearchBox.js';
 
 // components can be called from the imported UIkit reference
 function ClassifiedsPage() {
@@ -35,12 +35,11 @@ function ClassifiedsPage() {
 
   return (
     <div >
-      <CustomNavbar/>
+      <SearchBox/>
       <div className="uk-container">
-        <ClassifiedsPanel title="Marketplace" classifieds={classifieds}></ClassifiedsPanel>
+      <ClassifiedsPanel title="Marketplace" classifieds={classifieds}></ClassifiedsPanel>
 
       </div>
-      <CustomFooter/>
     </div>
 
   );
