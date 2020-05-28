@@ -42,3 +42,18 @@ You will also see any lint errors in the console.
 - moved routing config to separated file
 - classified site and slider
 - repair inconsistent database
+
+### Day fourth & fifth
+1. ![Day fourth & fifth](./screenshots/29-05-2020-1.png "Day fourth & fifth")
+2. ![Day fourth & fifth](./screenshots/29-05-2020-2.png "Day fourth & fifth")
+3. ![Day fourth & fifth](./screenshots/29-05-2020-3.png "Day fourth & fifth")
+4. ![Day fourth & fifth](./screenshots/29-05-2020-4.png "Day fourth & fifth")
+5. ![Day fourth & fifth](./screenshots/29-05-2020-5.png "Day fourth & fifth")
+#### Updates
+- updated searchbox
+- created autocompletion
+- lightbox added &amp; gallery page
+- refactoring of domain components (better naming and grouping in directories)
+- some updates in management page
+- nav & footer moved outside router 
+- new records in db
