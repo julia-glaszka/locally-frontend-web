@@ -21,7 +21,7 @@ const Navbar = () => {
               <div className="uk-navbar-dropdown uk-navbar-dropdown-bottom-right">
                 <ul className="uk-nav uk-navbar-dropdown-nav">
                   <li>
-                    <a href="/account/classifieds">Classifieds</a>
+                    <a href="/account/offers">offers</a>
                   </li>
                   <li>
                     <a href="/account/pinned">Pinned</a>

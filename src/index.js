@@ -9,8 +9,7 @@ import { routes } from "./config/routes.js";
 
 ReactDOM.render(
   <React.StrictMode>
-      <Navbar/>
-    
+  <Navbar/>
   <Router>
     <div style={{minHeight: "100vh"}}>
       <Switch>

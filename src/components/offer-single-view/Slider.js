@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slider = ({images}) => {
   return images
-    ? <div className="">
+    ? <div>
         <div
           className="uk-position-relative uk-visible-toggle uk-light"
           tabIndex="-1"
@@ -18,8 +18,6 @@ const Slider = ({images}) => {
               </div>
             </li>)}
           </ul>
-       
-
         </div>
       </div>
     : "There isn't any images "

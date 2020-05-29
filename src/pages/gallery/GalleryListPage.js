@@ -1,7 +1,7 @@
 import React from 'react';
-import get from '../services/apiService.js';
-import url from '../config/endpoints.js';
-import GalleryPanel from '../components/gallery/GalleryPanel.js';
+import get from '../../services/apiService.js';
+import url from '../../config/endpoints.js';
+import GalleryPanel from '../../components/gallery/GalleryPanel.js';
 
 function GalleryListPage() {
       const [images,
@@ -20,7 +20,6 @@ function GalleryListPage() {
        
         getImages()
       }, [])
-    
 
   return (
     <div >
@@ -28,7 +27,6 @@ function GalleryListPage() {
       <GalleryPanel title="Local Pictures" images={images}/>
       </div>
     </div>
-
   );
 }
 

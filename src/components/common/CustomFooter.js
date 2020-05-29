@@ -14,7 +14,7 @@ const CustomFooter = () => {
         <div className="uk-width-1-3@m">
           <h5 className="uk-margin-medium-top">LOCALLY</h5>
           <ul className="uk-list">
-            <li><a href="/classifieds">Marketplace</a></li>
+            <li><a href="/offers">Marketplace</a></li>
             <li><a href="/gallery">Pictures</a></li>
             <li><a href="/announcements">Announcements</a></li>
           </ul>

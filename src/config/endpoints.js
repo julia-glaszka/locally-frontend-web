@@ -3,25 +3,25 @@ import config from './config.js';
 const dev = {
     init: () => {},
     imagesUrl: `${config.apiUrl}/reactive/all`,
-    classifiedsUrl: `${config.apiUrl}/reactive/classifieds`,
+    offersUrl: `${config.apiUrl}/reactive/offers`,
     userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
-    userClassifieds: `${config.apiUrl}/reactive/myClassifieds`
+    userOffers: `${config.apiUrl}/reactive/myOffers`
   };
   
   const local = {
     init: () => {},
     imagesUrl: `${config.apiUrl}/reactive/all`,
-    classifiedsUrl: `${config.apiUrl}/reactive/classifieds`,
+    offersUrl: `${config.apiUrl}/reactive/offers`,
     userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
-    userClassifieds: `${config.apiUrl}/reactive/myClassifieds`
+    userOffers: `${config.apiUrl}/reactive/myOffers`
   };
   
   const prod = {
     init: () => {},
     imagesUrl: `${config.apiUrl}/reactive/all`,
-    classifiedsUrl: `${config.apiUrl}/reactive/classifieds`,
+    offersUrl: `${config.apiUrl}/reactive/offers`,
     userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
-    userClassifieds: `${config.apiUrl}/reactive/myClassifieds`
+    userOffers: `${config.apiUrl}/reactive/myOffers`
   };
   
   let endpoints;

@@ -1,11 +1,11 @@
-import MainPage from '../pages/MainPage.js';
-import UserProfilePage from '../pages/UserProfilePage';
-import NotFoundPage from '../pages/NotFoundPage.js';
-import ClassifiedsManagementPage from '../pages/ClassifiedsManagementPage';
-import ClassifiedDetailsPage from '../pages/SingleClassifiedViewPage';
-import EditSingleClassifiedPage from '../pages/EditSingleClassifiedPage';
-import ClassifiedsPage from '../pages/ClassifiedsListPage.js';
-import GalleryListPage from '../pages/GalleryListPage.js';
+import MainPage from '../pages/main/MainPage.js';
+import UserProfilePage from '../pages/user/UserProfilePage';
+import NotFoundPage from '../pages/not-found/NotFoundPage.js';
+import OffersManagementPage from '../pages/offers-management/OffersManagementPage';
+import SingleOfferDetailsPage from '../pages/offers/SingleOfferViewPage';
+import EditSingleOfferPage from '../pages/offers-management/EditSingleOfferPage';
+import OffersPage from '../pages/offers/OffersListPage.js';
+import GalleryListPage from '../pages/gallery/GalleryListPage.js';
 
 export const routes = [
   {
@@ -18,24 +18,24 @@ export const routes = [
     component: UserProfilePage,
     key: "User Profile Details"
   },  {
-    path: "/account/classifieds/:id/edit",
-    component: EditSingleClassifiedPage,
-    key: "Classifieds details edition page"
+    path: "/account/offers/:id/edit",
+    component: EditSingleOfferPage,
+    key: "offers details edition page"
   }, 
   {
-    path: "/account/classifieds",
-    component: ClassifiedsManagementPage,
-    key: "User's classifieds management panel"
+    path: "/account/offers",
+    component: OffersManagementPage,
+    key: "User's offers management panel"
   },
   {
-    path: "/classifieds/:id",
-    component: ClassifiedDetailsPage,
-    key: "Classifieds details"
+    path: "/offers/:id",
+    component: SingleOfferDetailsPage,
+    key: "offers details"
   },
   {
-    path: "/classifieds",
-    component: ClassifiedsPage,
-    key: "Classifieds"
+    path: "/offers",
+    component: OffersPage,
+    key: "offers"
   },
   {
     path: "/gallery",

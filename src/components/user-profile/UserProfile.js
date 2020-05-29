@@ -1,13 +1,13 @@
 import React from 'react';
 import ProfileInfo from './ProfileInfo.js'
-import ClassifiedsPanel from '../classifieds-panel/ClassifiedsPanel.js';
+import OffersPanel from '../offers-panel/OffersPanel.js';
 
 const UserProfile = ({userProfile}) => {
-  let classif = userProfile.classifieds
+  let offers = userProfile.offers
   return userProfile ? 
   <div>
         <ProfileInfo user={userProfile}/>
-        <ClassifiedsPanel title="User's classifieds" classifieds={classif}/>
+        <OffersPanel title="User's classifieds" offers={offers}/>
   </div> 
    : "user not found"
 }

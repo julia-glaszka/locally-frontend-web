@@ -1,10 +1,10 @@
 import React from 'react';
-import UserProfile from '../components/user-profile/UserProfile.js';
-import get from '../services/apiService.js';
+import UserProfile from '../../components/user-profile/UserProfile.js';
+import get from '../../services/apiService.js';
 // loads the Icon plugin
 import { useParams } from 'react-router-dom';
 
-import endpoints from '../config/endpoints.js';
+import endpoints from '../../config/endpoints.js';
 
 const UserProfilePage = () => {
   const [userProfile,
@@ -17,11 +17,8 @@ const UserProfilePage = () => {
         let profile
         let userUrl = endpoints.userProfileDetailsUrl+ '/' + id
         try {
-          
           profile = await get(userUrl)
           setUserProfile(profile)
-          console.log("userprof", profile)
-          console.log("userlink", userUrl)
         } catch (e) {
           console.log(e)
         }

@@ -25,7 +25,7 @@ const SearchInput = () => {
     let query = searched.replace(/%20/g," ");
     if (history && searched) {
       history.push({
-        pathname: '/classifieds',
+        pathname: '/offers',
         search: '?title=' + query
       })
     }

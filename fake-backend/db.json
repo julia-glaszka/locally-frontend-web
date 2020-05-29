@@ -67,11 +67,10 @@
         ]
     }
     ],
-    "classifieds": [{
+    "offers": [{
             "id": "1",
             "title": "New Shoes",
             "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-            "imageUrl": "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg",
             "images": ["https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg",
             "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Rozowy_BB5472_01_standard.jpg",
         "https://sklep.sizeer.com/media/cache/gallery/rc/m6booqge/adidas-gazelle-meskie-sneakersy-czarny-bb5476_2.jpg"],
@@ -88,7 +87,6 @@
             "title": "Hoodie XS",
             
             "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
-            "imageUrl": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg",
             "images": [ "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"],
             "price": 23.32,
             "seller": {
@@ -103,7 +101,6 @@
             "title": "Spodnie XXL",
             "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
 
-            "imageUrl": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706",
             "images": ["https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"],
             "price": 50,
             "seller": {
@@ -117,8 +114,6 @@
             "id": "4",
             "title": "Skarpetki, NOWE, 38",
             "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
-
-            "imageUrl": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg",
             "images": ["https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"],
             "price": 4.99,
             "seller": {
@@ -132,8 +127,6 @@
             "id": "5",
             "title": "Eleganckie skórzane rękawiczki, stan idealny",
             "description": "Na ogłoszenie trafiają rękawiczki mojej babci - wyprzedaję jej szafę bo ona nie umie obsługiwać komputera. Wykonane z barwionej skóry węża. Pomimo wielu lat, nadal są w doskonałym stanie. Rozmiar ręki: mała",
-
-            "imageUrl": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg",
             "images": ["https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"],
             "price": 30,
             "seller": {
@@ -147,8 +140,6 @@
             "id": "6",
             "title": "Spodnie XS",
             "description": "Spodnie dresowe 2 kieszenie na dole nogawek ściągacze w pasie sznureczek i gumka Rozmiar Xs S M L XL WYMIARY: Długość całkowita - 93cm Obwód w biodrach- 98cm Obwód w pasie - 62-80cm Stan- 26cm wysyłka 10zł przy wpłacie na konto wysyłka 26zł za pobraniem ",
-
-            "imageUrl": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692",
             "images": ["https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"],
             "price": 25,
             "seller": {
@@ -162,8 +153,6 @@
             "id": "7",
             "title": "Skarpetki Olgi, NOWE, 38",
             "description": "Skarpetki Damskie firmy Adidas. Super jakość. Premium. 100% bawełna. Dostępne wzory/kolory takie jak na zdjęciach. Sprzedaje paczkami po 12 par. Cena: 49.99zł - 1paczka (12 par) Rozmiar: 36-41 WYSYŁKA: Pobranie (płatność przy odbiorze) Kurier DPD: 25zł (nie ma możliwości innej wysyłki) Za wysyłkę płacisz raz, niezależnie od ilości zamówionych rzeczy. ZAPRASZAM RÓWNIEŻ NA MOJE INNE OGŁOSZENIA. Duży wybór w niskich cenach. Zamówienia proszę składać w wiadomości lub telefonicznie. JAK ZŁOŻYĆ ZAMÓWIENIE? Napisz w wiadomości: 1. Co dokładnie zamawiasz? 2. Dokładne dane do wysyłki (imię i nazwisko, ulica, numer domu/mieszkania, kod pocztowy, miejscowość, numer telefonu). GWARANTUJEMY 100% zadowolenia! :) ",
-
-            "imageUrl": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg",
             "images": ["https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg"],
             "price": 4.99,
             "seller": {
@@ -177,8 +166,6 @@
             "id": "8",
             "title": "Dresy babyblue",
             "description": "Witam, sprzedam nowy dres adidas kolor babyblue rozmia s płaciłam za niego 150zł sprzedam za 99zł",
-
-            "imageUrl": "https://23youngwear.com/334-large_default/dresy-babyblue.jpg",
             "images": ["https://23youngwear.com/334-large_default/dresy-babyblue.jpg"],
             "price": 99,
             "seller": {
@@ -192,8 +179,6 @@
             "id": "9",
             "title": "Spodnie XXL",
             "description":"Spodnie typu joggers marki ZARA. Z boku dwukołowy lampas. Nogawki zakończone ściągaczem. Na metce XXL ale rozmiarówka odpowiada 50-52. Polecam! :)",
-
-            "imageUrl": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg",
             "images": ["https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg"],
             "price": 50,
             "seller": {
@@ -207,8 +192,6 @@
             "id": "10",
             "title": "Nasturcja, nasiona",
             "description":"Nasturcja karłowa jest rośliną jednoroczną pochodzącą z Ameryki Południowej. Posiada gładkie, wiotkie pędy i kwiaty w kształcie otwartego kielicha o średnicy około 7cm. Kwitnie od czerwca do października i osiąga 30cm wysokości. Liście ma duże, tarczowate w kolorze od jasnozielonego do niebieskozielonych o przyjemnym zapachu. Wysiew nasion w miejscu słonecznym lub półcieniu od kwietnia do maja w glebie próchniczej dobrze zdrenowanej, wilgotnej. Nadmiar składników pokarmowych sprzyja wzrostu liści, a nie kwiatów. Idealna do ogrodu na obwódki kwiatowe, do donic i skrzynek balkonowych. Opakowanie 6g. Wystawiamy paragon lub fakturę. Wysyłka paczkomatem - za kilka produktów płacisz raz. Zapraszamy do obejrzenia naszych pozostałych ogłoszeń. ",
-
-            "imageUrl": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg",
             "images": ["https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg",
             "https://budujesz.info/pliki/image/foto/duze/plik56698a6c7d7c8.jpg",
         "https://lh3.googleusercontent.com/proxy/-6R4T2gWRMu24n2ieD47VzX8bQR2GXhf-EOgAJo_xD5XdioxLUMpX7Mx0bnB_2Tfy3m64p6czmBvcz-rkaGhUBgEhC99ftCVFSQ6jhJosnlEL9w5DLvgS_qqt2GmorFj1kcpiJJlBYgLUXo32iouFUe1Su4MXTp-Hbs"],
@@ -224,7 +207,6 @@
             "id": "11",
             "title": "Szafa, jak nowa",
             "description":"Świetna szafa z pokoju mojego syna. Mu się znudziła. Mój numer to 123 123 123",
-            "imageUrl": "https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13",
             "images": ["https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13"],
             "price": 450,
             "seller": {
@@ -237,7 +219,6 @@
             "id": "12",
             "title": "Drewno sosnowe",
             "description":"POsiadam duże ilości sosnowego drzewa - do stolarki, budowania domów, altan. Prosze o kontakt. cena za metr bieżący",
-            "imageUrl": "https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno",
             "images": ["https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno", 
                 "https://e.allegroimg.com/s512/03d66a/e3a9ebb44f269442f5d48627374e/Drewno-stare-z-rozbiorki-110lat-deski-Sosna"
             ],
@@ -252,7 +233,6 @@
             "id": "13",
             "title": "Rower dziecięcy",
             "description":"Fajny rowero, nie powiem że nie. Jeździ. Mój numer to 123 123 123",
-            "imageUrl": "https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg",
             "images": ["https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg"],
             "price": 450,
             "seller": {
@@ -265,7 +245,6 @@
             "id": "14",
             "title": "Rower Galaxy MTB",
             "description": "Rower górski Galaxy Skylab Acera 29. Rowem męski Galaxy Skylab Acera 29. Mój numer to 123 123 123 ",
-            "imageUrl": "https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg",
             "images": ["https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg",
             "https://thumbs.img-sprzedajemy.pl/1000x901c/6c/26/76/rower-mtb-galaxy-nowy-zamosc-462253426.jpg"],
             "price": 450,
@@ -279,7 +258,6 @@
             "id": "15",
             "title": "Dresy męskie",
             "description":"Dresy czarne. Dobra cena dobra jakość. Mój numer to 123 123 123",
-            "imageUrl": "https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE",
             "images": ["https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE"],
             "price": 450,
             "seller": {
@@ -299,13 +277,12 @@
         "pricing": "Pro",
         "imageUrl": "https://getuikit.com/docs/images/avatar.jpg"
     },
-    "myClassifieds": 
+    "myOffers": 
         [        {
             "id": "4",
             "title": "Skarpetki, NOWE, 38",
             "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
 
-            "imageUrl": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg",
             "images": ["https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"],
             "price": 4.99,
             "seller": {
@@ -320,7 +297,6 @@
             "title": "Eleganckie skórzane rękawiczki, stan idealny",
             "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
 
-            "imageUrl": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg",
             "images": ["https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"],
             "price": 30,
             "seller": {
@@ -335,7 +311,6 @@
             "title": "Spodnie XS",
             "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
 
-            "imageUrl": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692",
             "images": ["https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"],
             "price": 25,
             "seller": {
@@ -353,13 +328,12 @@
             "location": "Toruń",
             "isOnline": true,
             "imageUrl": "https://getuikit.com/docs/images/avatar.jpg",
-            "classifieds_count": 3,
-            "classifieds": [        {
+            "offers_count": 3,
+            "offers": [        {
                 "id": "4",
                 "title": "Skarpetki, NOWE, 38",
                 "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
     
-                "imageUrl": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg",
                 "images": ["https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"],
                 "price": 4.99,
                 "seller": {
@@ -374,7 +348,6 @@
                 "title": "Eleganckie skórzane rękawiczki, stan idealny",
                 "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
     
-                "imageUrl": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg",
                 "images": ["https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"],
                 "price": 30,
                 "seller": {
@@ -389,7 +362,6 @@
                 "title": "Spodnie XS",
                 "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
     
-                "imageUrl": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692",
                 "images": ["https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"],
                 "price": 25,
                 "seller": {
@@ -408,13 +380,12 @@
             "location": "Toruń",
             "isOnline": true,
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cheryl_Ann_Krause.jpg",
-            "classifieds_count": 5,
-            "classifieds": [
+            "offers_count": 5,
+            "offers": [
                 {
                     "id": "1",
                     "title": "New Shoes",
                     "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-                    "imageUrl": "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg",
                     "images": ["https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg",
                     "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Rozowy_BB5472_01_standard.jpg",
                 "https://sklep.sizeer.com/media/cache/gallery/rc/m6booqge/adidas-gazelle-meskie-sneakersy-czarny-bb5476_2.jpg"],
@@ -432,7 +403,6 @@
                     "title": "Skarpetki Olgi, NOWE, 38",
                     "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
         
-                    "imageUrl": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg",
                     "images": ["https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg"],
                     "price": 4.99,
                     "seller": {
@@ -447,7 +417,6 @@
                     "title": "Dresy babyblue",
                     "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
         
-                    "imageUrl": "https://23youngwear.com/334-large_default/dresy-babyblue.jpg",
                     "images": ["https://23youngwear.com/334-large_default/dresy-babyblue.jpg"],
                     "price": 99,
                     "seller": {
@@ -462,7 +431,6 @@
                     "title": "Spodnie XXL",
                     "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
         
-                    "imageUrl": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg",
                     "images": ["https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg"],
                     "price": 50,
                     "seller": {
@@ -477,7 +445,6 @@
                     "title": "Nasturcja, nasiona",
                     "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
         
-                    "imageUrl": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg",
                     "images": ["https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg"],
                     "price": 1.99,
                     "seller": {
@@ -496,15 +463,14 @@
             "location": "Toruń",
             "isOnline": false,
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jroxychix.jpeg",
-            "classifieds_count": 2,
-            "classifieds": [
+            "offers_count": 2,
+            "offers": [
               
                 {
                     "id": "3",
                     "title": "Spodnie XXL",
                     "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
         
-                    "imageUrl": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706",
                     "images": ["https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"],
                     "price": 50,
                     "seller": {
@@ -519,7 +485,6 @@
                     "title": "Hoodie XS",
                     
                     "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-                    "imageUrl": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg",
                     "images": [ "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"],
                     "price": 23.32,
                     "seller": {
@@ -538,12 +503,11 @@
             "location": "Zakopane",
             "isOnline": true,
             "imageUrl": "https://images.pexels.com/users/avatars/142259/spencer-selover-240.jpeg?w=256&h=256&fit=crop&crop=faces&auto=compress",
-            "classifieds_count": 4,
-            "classifieds": [  {
+            "offers_count": 4,
+            "offers": [  {
                 "id": "11",
                 "title": "Szafa, jak nowa",
                 "description":"Świetna szafa z pokoju mojego syna. Mu się znudziła. Mój numer to 123 123 123",
-                "imageUrl": "https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13",
                 "images": ["https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13"],
                 "price": 450,
                 "seller": {
@@ -556,7 +520,6 @@
                 "id": "12",
                 "title": "Drewno sosnowe",
                 "description":"POsiadam duże ilości sosnowego drzewa - do stolarki, budowania domów, altan. Prosze o kontakt. cena za metr bieżący",
-                "imageUrl": "https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno",
                 "images": ["https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno", 
                     "https://e.allegroimg.com/s512/03d66a/e3a9ebb44f269442f5d48627374e/Drewno-stare-z-rozbiorki-110lat-deski-Sosna"
                 ],
@@ -572,7 +535,6 @@
                 "id": "13",
                 "title": "Rower dziecięcy",
                 "description":"Fajny rowero, nie powiem że nie. Jeździ. Mój numer to 123 123 123",
-                "imageUrl": "https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg",
                 "images": ["https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg"],
                 "price": 450,
                 "seller": {
@@ -585,7 +547,6 @@
                 "id": "14",
                 "title": "Rower Galaxy MTB",
                 "description": "Rower górski Galaxy Skylab Acera 29. Rowem męski Galaxy Skylab Acera 29. Mój numer to 123 123 123 ",
-                "imageUrl": "https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg",
                 "images": ["https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg",
                 "https://thumbs.img-sprzedajemy.pl/1000x901c/6c/26/76/rower-mtb-galaxy-nowy-zamosc-462253426.jpg"],
                 "price": 450,
@@ -599,7 +560,6 @@
                 "id": "15",
                 "title": "Dresy męskie",
                 "description":"Dresy czarne. Dobra cena dobra jakość. Mój numer to 123 123 123",
-                "imageUrl": "https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE",
                 "images": ["https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE"],
                 "price": 450,
                 "seller": {
