@@ -5,10 +5,10 @@ import React from 'react';
 
 function ExamplePage() {
  	let hey = 'Hey!!!!!!!!!!!!!!!!!'
-  return (
-    <div >
+    return (
+      <div >
 		{ hey } It's my new page.
-    </div>
+      </div>
   );
 }
 
@@ -35,10 +35,10 @@ You can find them in /src/components.
   
 ``` javascript
 // don't copy that
- <Switch>
-      {routes.map(route => (
-        <Route {...route} />
-      ))}
+      <Switch>
+        {routes.map(route => (
+          <Route {...route} />
+        ))}
       </Switch>
 ```
 
