@@ -15,7 +15,9 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ## Docs 
-[evilghostgirl.github.io/locally-frontend-web/styleguide/index.html](evilghostgirl.github.io/locally-frontend-web/styleguide/index.html)
+```npm run styleguide```
+
+
 ## Progress
 ### Day first
 1. ![first day](./screenshots/21-05-2020-1.png "First day")
@@ -68,6 +70,6 @@ You will also see any lint errors in the console.
 - [@TomaszKisiel](https://github.com/TomaszKisiel) joined to our team :3
 - Refactoring
 - New [docs]( https://github.com/evilghostgirl/locally-frontend-web/tree/master/docs)
-- Newer [docs](https://evilghostgirl.github.io/locally-frontend-web/styleguide/index.html) with styleguide!
+- Newer [docs] with styleguide!
 - Added json mocks
 - Switched to scss/sass
