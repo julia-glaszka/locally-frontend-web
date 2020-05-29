@@ -68,6 +68,6 @@ You will also see any lint errors in the console.
 - [@TomaszKisiel](https://github.com/TomaszKisiel) joined to our team :3
 - Refactoring
 - New [docs]( https://github.com/evilghostgirl/locally-frontend-web/tree/master/docs)
-- Newer [docs](evilghostgirl.github.io/locally-frontend-web/styleguide/index.html) with styleguide!
+- Newer [docs](https://evilghostgirl.github.io/locally-frontend-web/styleguide/index.html) with styleguide!
 - Added json mocks
 - Switched to scss/sass
