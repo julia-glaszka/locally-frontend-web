@@ -14,34 +14,36 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser. I
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+## Docs 
+[evilghostgirl.github.io/locally-frontend-web/styleguide/index.html](evilghostgirl.github.io/locally-frontend-web/styleguide/index.html)
 ## Progress
 ### Day first
 1. ![first day](./screenshots/21-05-2020-1.png "First day")
 2. ![first day](./screenshots/21-05-2020-2.png "First day")
 3. ![first day](./screenshots/21-05-2020-3.png "First day")
 ### Updates
-- added display of ads and images
-- created json fake database for easy development
-- added stage flags (local, dev, prod)
-- first design and concept
+- Added display of ads and images
+- Created json fake database for easy development
+- Added stage flags (local, dev, prod)
+- First design and concept
 
 ### Day second
 1. ![Second day](./screenshots/23-05-2020-1.png "Second day")
 2. ![Second day](./screenshots/23-05-2020-2.png "Second day")
 #### Updates
-- added react router and basic routing
-- updated schema of json fake database
-- library uikit-react was removed and replaced with clean uikit
-- the project structure was rebuilt and divided into simpler components
-- added preview of user's classifieds (classifieds management panel)
+- Added react router and basic routing
+- Updated schema of json fake database
+- Library uikit-react was removed and replaced with clean uikit
+- The project structure was rebuilt and divided into simpler components
+- Added preview of user's classifieds (classifieds management panel)
 
 
 ### Day third
 1. ![Third day](./screenshots/24-05-2020-1.png "Third day")
 #### Updates
-- moved routing config to separated file
-- classified site and slider
-- repair inconsistent database
+- Moved routing config to separated file
+- Classified site and slider
+- Repair inconsistent database
 
 ### Day fourth & fifth
 1. ![Day fourth & fifth](./screenshots/29-05-2020-1.png "Day fourth & fifth")
@@ -50,10 +52,22 @@ You will also see any lint errors in the console.
 4. ![Day fourth & fifth](./screenshots/29-05-2020-4.png "Day fourth & fifth")
 5. ![Day fourth & fifth](./screenshots/29-05-2020-5.png "Day fourth & fifth")
 #### Updates
-- updated searchbox
-- created autocompletion
-- lightbox added &amp; gallery page
-- refactoring of domain components (better naming and grouping in directories)
-- some updates in management page
-- nav & footer moved outside router 
-- new records in db
+- Updated searchbox
+- Created autocompletion
+- Lightbox added &amp; gallery page
+- Refactoring of domain components (better naming and grouping in directories)
+- Some updates in management page
+- Nav & footer moved outside router 
+- New records in db
+
+
+### Day sixth
+1. ![Day sixth](./screenshots/30-05-2020-1.png "sixth")
+2. ![Day sixth](./screenshots/30-05-2020-2.png "sixth")
+#### Updates
+- [@TomaszKisiel](https://github.com/TomaszKisiel) joined to our team :3
+- Refactoring
+- New [docs]( https://github.com/evilghostgirl/locally-frontend-web/tree/master/docs)
+- Newer [docs](evilghostgirl.github.io/locally-frontend-web/styleguide/index.html) with styleguide!
+- Added json mocks
+- Switched to scss/sass

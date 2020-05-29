@@ -1,0 +1,13 @@
+{
+    "id": "11",
+    "title": "Najlepszy pies",
+    "description":"Kocham mojego psa",
+    "images": ["https://usercontent2.hubstatic.com/12787383.jpg"],
+    "price": 1800,
+    "seller": {
+        "id": "222",
+        "name": "Ewelina Fliiix"
+    },
+    "addedAt": "26 April",
+    "views": 100
+}

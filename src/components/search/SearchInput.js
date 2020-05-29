@@ -2,7 +2,6 @@ import React from 'react';
 import {useHistory} from "react-router-dom";
 import useDebounce from './useDebounce.js'
 import classNames from "classnames";
-import './search.css'
 const SearchInput = () => {
   let [suggestions,
     setSuggestions] = React.useState([]);

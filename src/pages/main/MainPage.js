@@ -1,8 +1,5 @@
 import React from 'react';
 import GalleryPanel from '../../components/gallery/GalleryPanel.js';
-import './Main.css';
-// eslint-disable-next-line no-unused-vars
-import css from 'uikit/dist/css/uikit.css';
 import Icons from 'uikit/dist/js/uikit-icons';
 import UIkit from 'uikit/dist/js/uikit.js'
 import OffersPanel from '../../components/offers-panel/OffersPanel.js';

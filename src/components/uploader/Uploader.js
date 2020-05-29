@@ -1,7 +1,7 @@
 import React, {useRef} from "react";
 
 import {Form} from 'uikit-react';
-
+//@Deprecated
 const Uploader = () => {
   const fileInput = useRef(null);
 
@@ -13,8 +13,7 @@ const Uploader = () => {
 
   }
 
-  return <div >
-      
+  return <div>
     <Form onSubmit={onSubmit}>
    
       <div class="js-upload" uk-form-custom>

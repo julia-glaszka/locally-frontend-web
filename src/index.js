@@ -2,19 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './components/common/Navbar.js';
 import CustomFooter from './components/common/CustomFooter.js';
-import './index.css';
+import './index.scss';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import { routes } from "./config/routes.js";
 
 ReactDOM.render(
   <React.StrictMode>
-<<<<<<< HEAD
-  <Navbar/>
-=======
       <Navbar/>
 
->>>>>>> 211a82dc7f47e8ac6c541208f87de6f4c15743ab
   <Router>
     <div style={{minHeight: "100vh"}}>
       <Switch>

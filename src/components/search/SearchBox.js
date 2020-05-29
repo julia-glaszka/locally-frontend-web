@@ -1,5 +1,5 @@
 import React from 'react';
-import "./search.css"
+import "./search.scss"
 import SearchInput from './SearchInput.js';
 const SearchBox = () => {
 

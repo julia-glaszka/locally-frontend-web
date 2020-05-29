@@ -1,0 +1,6 @@
+Component example:
+
+```
+
+<SearchBox />
+```

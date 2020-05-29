@@ -1,0 +1,40 @@
+{
+    "id": "2",
+    "name": "Iza Pracz",
+    "username": "izkaa",
+    "location": "Toruń",
+    "isOnline": false,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jroxychix.jpeg",
+    "offers_count": 2,
+    "offers": [
+      
+        {
+            "id": "3",
+            "title": "Spodnie XXL",
+            "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
+
+            "images": ["https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"],
+            "price": 50,
+            "seller": {
+                "id": "2",
+                "name": "Iza Pracz"
+            },
+            "addedAt": "6 May",
+            "views": 123
+        },
+        {
+            "id": "2",
+            "title": "Hoodie XS",
+            
+            "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
+            "images": [ "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"],
+            "price": 23.32,
+            "seller": {
+                "id": "2",
+                "name": "Iza Pracz"
+            },
+            "addedAt": "16 May",
+            "views": 123
+        }
+    ]
+}
