@@ -10,7 +10,7 @@ import { routes } from "./config/routes.js";
 ReactDOM.render(
   <React.StrictMode>
       <Navbar/>
-    
+
   <Router>
     <div style={{minHeight: "100vh"}}>
       <Switch>
@@ -26,6 +26,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+// Wybacz to nagłe wtargniecie.. ale chciałem sprawdzić jak działa kontrybuowanie :3
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
