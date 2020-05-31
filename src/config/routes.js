@@ -6,6 +6,7 @@ import SingleOfferDetailsPage from '../pages/offers/SingleOfferViewPage';
 import EditSingleOfferPage from '../pages/offers-management/EditSingleOfferPage';
 import OffersPage from '../pages/offers/OffersListPage.js';
 import GalleryListPage from '../pages/gallery/GalleryListPage.js';
+import LoginPage from '../pages/user/LoginPage.js';
 
 export const routes = [
   {
@@ -21,7 +22,7 @@ export const routes = [
     path: "/account/offers/:id/edit",
     component: EditSingleOfferPage,
     key: "offers details edition page"
-  }, 
+  },
   {
     path: "/account/offers",
     component: OffersManagementPage,
@@ -43,10 +44,14 @@ export const routes = [
     key: "Gallery of images"
   },
   {
+    path: "/login",
+	component: LoginPage,
+	key: "Login to user page"
+ },
+  {
     exact: true,
     path: "*",
     component: NotFoundPage,
     key: "Error 404"
   }
 ];
-
