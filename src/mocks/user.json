@@ -2,38 +2,68 @@
     "id": "2",
     "name": "Iza Pracz",
     "username": "izkaa",
-    "location": "Toruń",
-    "isOnline": false,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jroxychix.jpeg",
+    "location": {
+        "name": "Toruń",
+        "lat": 53.013790,
+        "long": 18.598444
+    },
+    "is_online": false,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jroxychix.jpeg",
     "offers_count": 2,
-    "offers": [
-      
-        {
-            "id": "3",
-            "title": "Spodnie XXL",
-            "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-
-            "images": ["https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"],
-            "price": 50,
-            "seller": {
-                "id": "2",
-                "name": "Iza Pracz"
-            },
-            "addedAt": "6 May",
-            "views": 123
-        },
-        {
+    "offers": [{
             "id": "2",
+            "status": "active",
             "title": "Hoodie XS",
-            
-            "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-            "images": [ "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"],
+            "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
+            "location": {
+                "name": "Toruń",
+                "lat": 53.013790,
+                "long": 18.598444
+            },
+            "images": [{
+                "url": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"
+            }],
             "price": 23.32,
             "seller": {
                 "id": "2",
-                "name": "Iza Pracz"
+                "name": "Iza Pracz",
+                "is_online": true,
+                "phone": "222 222 222"
             },
-            "addedAt": "16 May",
+            "category": {
+                "id": 2,
+                "name": "Bluzy"
+            },
+            "added_at": "2019-12-27T07:45:00Z",
+            "valid_to": "2020-07-27T07:45:00Z",
+            "views": 332
+        },
+        {
+            "id": "3",
+            "status": "active",
+            "title": "Spodnie XXL",
+            "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
+            "location": {
+                "name": "Toruń",
+                "lat": 53.013790,
+                "long": 18.598444
+            },
+            "images": [{
+                "url": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"
+            }],
+            "price": 50,
+            "seller": {
+                "id": "2",
+                "name": "Iza Pracz",
+                "is_online": true,
+                "phone": "222 222 222"
+            },
+            "category": {
+                "id": 3,
+                "name": "Spodnie"
+            },
+            "added_at": "2020-03-27T07:45:00Z",
+            "valid_to": "2020-07-27T07:45:00Z",
             "views": 123
         }
     ]

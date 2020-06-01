@@ -1,4 +1,4 @@
-React component example:
+Component example:
 
 ```
 import offer from './../../mocks/offer.json';
