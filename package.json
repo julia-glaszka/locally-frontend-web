@@ -22,7 +22,8 @@
     "eject": "react-scripts eject",
     "start:local": "REACT_APP_STAGE=local react-scripts start",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+	"start:fast": "npm start --prefix ./fake-backend & npm run styleguide & npm run start:local"
   },
   "eslintConfig": {
     "extends": "react-app"
