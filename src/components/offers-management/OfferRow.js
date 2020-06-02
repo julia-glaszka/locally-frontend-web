@@ -7,7 +7,7 @@ const OfferRow = ({offer}) => {
       <div uk-grid="" className="uk-grid-collapse uk-grid-match uk-grid ">
         <div className=" uk-width-1-6@s uk-height-small">
           <div className="uk-flex uk-flex-center uk-flex-left@m">
-            <img src={offer.images[0]} className=" uk-height-small" style={{maxWidth: "none"}} alt=""/>
+            <img src={offer.images[0].url} className=" uk-height-small" style={{maxWidth: "none"}} alt=""/>
           </div>
         </div>
         <div

@@ -1,13 +1,28 @@
 {
-    "id": "11",
-    "title": "Najlepszy pies",
-    "description":"Kocham mojego psa",
-    "images": ["https://usercontent2.hubstatic.com/12787383.jpg"],
-    "price": 1800,
-    "seller": {
-        "id": "222",
-        "name": "Ewelina Fliiix"
+    "id": "3",
+    "status": "active",
+    "title": "Spodnie XXL",
+    "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
+    "location": {
+        "name": "Toruń",
+        "lat": 53.013790,
+        "long": 18.598444
     },
-    "addedAt": "26 April",
-    "views": 100
+    "images": [{
+        "url": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"
+    }],
+    "price": 50,
+    "seller": {
+        "id": "2",
+        "name": "Iza Pracz",
+        "is_online": true,
+        "phone": "222 222 222"
+    },
+    "category": {
+        "id": 3,
+        "name": "Spodnie"
+    },
+    "added_at": "2020-03-27T07:45:00Z",
+    "valid_to": "2020-07-27T07:45:00Z",
+    "views": 123
 }

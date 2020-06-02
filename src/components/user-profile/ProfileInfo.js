@@ -9,18 +9,18 @@ const ProfileInfo = ({user}) => {
           <div className="uk-card-header">
               <div className="uk-grid-small uk-flex-middle">
                   <div className="uk-width-auto">
-                      <img className="uk-border-circle" width="40" height="40" src={user.imageUrl} alt="user"/>  
+                      <img className="uk-border-circle" width="40" height="40" src={user.image_url} alt="user"/>  
                   </div>
                   <div className="uk-width-expand">
 
                       <h3 className="uk-card-title uk-margin-remove-bottom">
                         { user.name }   
-                        { user.isOnline ?
+                        { user.is_online ?
                         <span className="uk-badge uk-badge-success uk-margin-small-left" style={{backgroundColor: colors.online}}>Online</span> 
                         :
                         <span className="uk-badge uk-margin-small-left" style={{backgroundColor: colors.offline}}>Offline</span>}
                       </h3>
-                      <p className="uk-text-meta uk-margin-remove-top">@{user.username},  {user.location}</p>
+                      <p className="uk-text-meta uk-margin-remove-top">@{user.username},  {user.location.name}</p>
                   </div>
               </div>
           </div>

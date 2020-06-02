@@ -20,12 +20,8 @@ const SingleOfferDetailsPage = () => {
       let offer
       let offerUrl = endpoints.offersUrl + '/' + id
       try {
-
         offer = await get(offerUrl)
         setOffer(offer)
-        console.log("userprof", offer)
-        console.log("images", offer.images)
-        console.log("userlink", offerUrl)
       } catch (e) {
         console.log(e)
       }
@@ -35,20 +31,27 @@ const SingleOfferDetailsPage = () => {
   
   return <div>
       <SearchBox/>
-
+      <div class="uk-container">
       { offer
-        ? <div className="uk-container uk-margin-medium-top uk-margin-medium-bottom">
+        ? <div className="uk-flex uk-flex-wrap uk-margin-medium-top uk-margin-medium-bottom">
         
-        <div className="uk-child-width-1-2@m uk-grid-match uk-grid">
-            <Slider images={offer.images}/>
-            <OfferInfo offer={offer}/>
-          </div>
-     <ShortProfileInfo seller={offer.seller}/>
+            <div className="uk-width-3-4@m ">
+                <div class="uk-flex uk-flex-wrap uk-flex-center">
+                  <Slider images={offer.images}/>
+                  <OfferInfo offer={offer}/>
+                </div>
+              
+            </div>
+            <div  className="uk-width-1-4@m">
+              <ShortProfileInfo seller={offer.seller}/>
+            </div>
       
-      </div>
+        </div>
         : "Loading......"
       }
-
+     
+    
+      </div>
   </div>
 
 }

@@ -1,43 +1,85 @@
-[        {
+[  {
+    "id": "2",
+    "status": "active",
+    "title": "Hoodie XS",
+    "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
+    "location": {
+        "name": "Toruń",
+        "lat": 53.013790,
+        "long": 18.598444
+    },
+    "images": [{
+        "url": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"
+    }],
+    "price": 23.32,
+    "seller": {
+        "id": "2",
+        "name": "Iza Pracz",
+        "is_online": true,
+        "phone": "222 222 222"
+    },
+    "category": {
+        "id": 2,
+        "name": "Bluzy"
+    },
+    "added_at": "2019-12-27T07:45:00Z",
+    "valid_to": "2020-07-27T07:45:00Z",
+    "views": 332
+},
+{
+    "id": "3",
+    "status": "active",
+    "title": "Spodnie XXL",
+    "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
+    "location": {
+        "name": "Toruń",
+        "lat": 53.013790,
+        "long": 18.598444
+    },
+    "images": [{
+        "url": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"
+    }],
+    "price": 50,
+    "seller": {
+        "id": "2",
+        "name": "Iza Pracz",
+        "is_online": true,
+        "phone": "222 222 222"
+    },
+    "category": {
+        "id": 3,
+        "name": "Spodnie"
+    },
+    "added_at": "2020-03-27T07:45:00Z",
+    "valid_to": "2020-07-27T07:45:00Z",
+    "views": 123
+},
+{
     "id": "4",
+    "status": "active",
     "title": "Skarpetki, NOWE, 38",
-    "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-
-    "images": ["https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"],
+    "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
+    "location": {
+        "name": "Toruń",
+        "lat": 53.013790,
+        "long": 18.598444
+    },
+    "images": [{
+        "url": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"
+    }],
     "price": 4.99,
     "seller": {
         "id": "33",
-        "name": "Hvlie Vitkievicz"
+        "name": "Hvlie Vitkievicz",
+        "is_online": true,
+        "phone": "333 333 333"
     },
-    "addedAt": "18 May",
-    "views": 123
-},
-{
-    "id": "5",
-    "title": "Eleganckie skórzane rękawiczki, stan idealny",
-    "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-
-    "images": ["https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"],
-    "price": 30,
-    "seller": {
-        "id": "33",
-        "name": "Hvlie Vitkievicz"
+    "category": {
+        "id": 4,
+        "name": "Skarpety"
     },
-    "addedAt": "16 May",
-    "views": 123
-},
-{
-    "id": "6",
-    "title": "Spodnie XS",
-    "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-
-    "images": ["https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"],
-    "price": 25,
-    "seller": {
-        "id": "33",
-        "name": "Hvlie Vitkievicz"
-    },
-    "addedAt": "6 May",
+    "added_at": "2020-03-27T07:45:00Z",
+    "valid_to": "2020-07-27T07:45:00Z",
     "views": 123
 }
 ]

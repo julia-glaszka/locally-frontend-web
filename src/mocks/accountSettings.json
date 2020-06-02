@@ -1,8 +1,13 @@
 {
-    "id": "2212323312",
-    "name": "Hvlie Vitkievicz",
-    "username": "hvlie",
-    "location": "Toruń",
-    "pricing": "Pro",
-    "imageUrl": "https://getuikit.com/docs/images/avatar.jpg"
+    "id": "33",
+        "name": "Hvlie Vitkievicz",
+        "username": "hvlie",
+        "location": {
+            "name": "Toruń",
+            "lat": 53.013790,
+            "long": 18.598444
+        },
+        "phone": "333 333 333",
+        "pricing": "Pro",
+        "imageUrl": "https://getuikit.com/docs/images/avatar.jpg"
 }
