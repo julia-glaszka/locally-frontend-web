@@ -225,6 +225,36 @@
       "views": 123
     },
     {
+      "id": "7001",
+      "status": "active",
+      "title": "Marchewkowe skarpety",
+      "description": "Marchewkowe skarpety w każdym rozmiarze. Idealne na prezent lub drobny upominek dla znajomych. Skarpetki mam w rozmiarach 30-46, przy zamówieniu proszę uwzględnic właściwy rozmiar.",
+      "location": {
+        "name": "Rzeszów",
+        "lat": 50.041107,
+        "long": 21.999153
+      },
+      "images": [
+        {
+          "url": "https://cdn.dedoles.sk/buxus/images/cache/comprimed_detail_image4/buxus/images/katalog_produktov/vesele_ponozky_mrkva/1004-aw16_13.jpg.webp"
+        }
+      ],
+      "price": 12,
+      "seller": {
+        "id": "7001",
+        "name": "Paweł Nowak",
+        "is_online": false,
+        "phone": "216 845 937"
+      },
+      "category": {
+        "id": 4,
+        "name": "Skarpety"
+      },
+      "added_at": "2020-06-03T22:19:43Z",
+      "valid_to": "2020-06-03T22:19:51Z",
+      "views": 105
+    },
+    {
       "id": "7",
       "status": "active",
       "title": "Skarpetki Olgi, NOWE, 38",
@@ -652,6 +682,20 @@
     }
   ],
   "users": [
+    {
+      "id": "7001",
+      "name": "Paweł Nowak",
+      "username": "nowak",
+      "location": {
+        "name": "Rzeszów",
+        "lat": 50.041107,
+        "long": 21.999153
+      },
+      "is_online": false,
+      "image_url": null,
+      "offers_count": 0,
+      "offers": []
+    },
     {
       "id": "33",
       "name": "Hvlie Vitkievicz",
