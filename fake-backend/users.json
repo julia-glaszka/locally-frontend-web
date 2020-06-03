@@ -1,16 +1,8 @@
-{
-    "users": [
-      {
-        "id": 1,
-        "name": "izkaa",
-        "email": "izkaa@email.com",
-        "password": "1234"
-      },
-      {
-        "id": 2,
-        "name": "zubeko",
-        "email": "zubeko@email.com",
-        "password": "1111"
-      }
-    ]
-  }
+{"users":[
+    {"id":1,"name":"izkaa","email":"izkaa@email.com","password":"1234"},
+    {"id":2,"name":"zubeko","email":"zubeko@email.com","password":"1111"},
+    {"id":3,"email":"lea123@interia.pl","password":"12344"},
+    {"id":4,"email":"lea123@interia.pl","password":"12344"},
+    {"id":5,"email":"lea1234@interia.pl","password":"12344"},
+    {"id":6,"email":"lea1321@interia.pl","password":"1221321"}]
+}

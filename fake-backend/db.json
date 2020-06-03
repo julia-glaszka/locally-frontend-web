@@ -1,1120 +1,1187 @@
 {
-    "all": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ernst_Ludwig_Kirchner_-_Artistin_%28Marzella%29.jpg",
-        "https://i.pinimg.com/originals/00/01/93/00019341b54d935c7d0ecf69c8a3d644.jpg",
-        "https://www.copia-di-arte.com/kunst/ernst_ludwig_kirchner/Bildnis-Gerda.jpg",
-        "https://i.pinimg.com/originals/7a/ee/c4/7aeec494a79318ddb0025800aed65cec.jpg",
-        "https://artdone.files.wordpress.com/2018/05/francis-bacon-lying-figure-1969-fondation-beyeler-basel.jpg?w=752",
-        "https://rynekisztuka.pl/wp-content/uploads/2014/07/bacon-studium-glowy-tate.jpg",
-        "https://i.imgur.com/R62c3iG.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Witkacy-Portret_Neny_Stachurskiej_3.jpg",
-        "https://grafik.rp.pl/g4a/1409191,813766,9.jpg",
-        "https://ocdn.eu/pulscms-transforms/1/5L6ktkqTURBXy80OTQzYTgzZThlYjk4NDYxZjliOGExOGI2ODE2ZTc2Ni5qcGVnkpUDACDNAyvNAciTBc0BpM0BLA",
-        "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/collection/PKA/ACO/PKA_ACO_A1978_170-001.jpg",
-        "https://i.pinimg.com/originals/bc/99/c3/bc99c30376dfa7c6324067f4a6ffd7fe.jpg"
-    ],
-    "suggest": [{
-            "title": "spodnie",
-            "suggestions": [
-                "spodnie jeansowe",
-                "spodnie XS",
-                "spodnie dresowe"
-            ]
-        },
+  "all": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ernst_Ludwig_Kirchner_-_Artistin_%28Marzella%29.jpg",
+    "https://i.pinimg.com/originals/00/01/93/00019341b54d935c7d0ecf69c8a3d644.jpg",
+    "https://www.copia-di-arte.com/kunst/ernst_ludwig_kirchner/Bildnis-Gerda.jpg",
+    "https://i.pinimg.com/originals/7a/ee/c4/7aeec494a79318ddb0025800aed65cec.jpg",
+    "https://artdone.files.wordpress.com/2018/05/francis-bacon-lying-figure-1969-fondation-beyeler-basel.jpg?w=752",
+    "https://rynekisztuka.pl/wp-content/uploads/2014/07/bacon-studium-glowy-tate.jpg",
+    "https://i.imgur.com/R62c3iG.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/e/ed/Witkacy-Portret_Neny_Stachurskiej_3.jpg",
+    "https://grafik.rp.pl/g4a/1409191,813766,9.jpg",
+    "https://ocdn.eu/pulscms-transforms/1/5L6ktkqTURBXy80OTQzYTgzZThlYjk4NDYxZjliOGExOGI2ODE2ZTc2Ni5qcGVnkpUDACDNAyvNAciTBc0BpM0BLA",
+    "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/collection/PKA/ACO/PKA_ACO_A1978_170-001.jpg",
+    "https://i.pinimg.com/originals/bc/99/c3/bc99c30376dfa7c6324067f4a6ffd7fe.jpg"
+  ],
+  "suggest": [
+    {
+      "title": "spodnie",
+      "suggestions": [
+        "spodnie jeansowe",
+        "spodnie XS",
+        "spodnie dresowe"
+      ]
+    },
+    {
+      "title": "spódnica",
+      "suggestions": [
+        "różowa spódnica",
+        "spódniczka elegancka",
+        "spódnica rozkloszowana"
+      ]
+    },
+    {
+      "title": "koszulka",
+      "suggestions": [
+        "koszulka z nadrukiem",
+        "koszulka oversize",
+        "koszulka z napisem"
+      ]
+    },
+    {
+      "title": "rękawiczki",
+      "suggestions": [
+        "skórzane rękawiczki",
+        "rękawiczki sportowe",
+        "sterylne rękawiczki"
+      ]
+    },
+    {
+      "title": "skarp",
+      "suggestions": [
+        "skarpetki",
+        "skarpeta świąteczna",
+        "skarpetki zakolanówki"
+      ]
+    },
+    {
+      "title": "szal",
+      "suggestions": [
+        "szal woalowy",
+        "szalik na zimę",
+        "szaliczek"
+      ]
+    },
+    {
+      "title": "sz",
+      "suggestions": [
+        "szal woalowy",
+        "szalik na zimę",
+        "szaliczek",
+        "szlafrok",
+        "szelki"
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "id": "2",
+      "status": "active",
+      "title": "Hoodie XS",
+      "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
         {
-            "title": "spódnica",
-            "suggestions": [
-                "różowa spódnica",
-                "spódniczka elegancka",
-                "spódnica rozkloszowana"
-            ]
-        }, {
-            "title": "koszulka",
-            "suggestions": [
-                "koszulka z nadrukiem",
-                "koszulka oversize",
-                "koszulka z napisem"
-            ]
-        }, {
-            "title": "rękawiczki",
-            "suggestions": [
-                "skórzane rękawiczki",
-                "rękawiczki sportowe",
-                "sterylne rękawiczki"
-            ]
-        }, {
-            "title": "skarp",
-            "suggestions": [
-                "skarpetki",
-                "skarpeta świąteczna",
-                "skarpetki zakolanówki"
-            ]
-        }, {
-            "title": "szal",
-            "suggestions": [
-                "szal woalowy",
-                "szalik na zimę",
-                "szaliczek"
-            ]
-        },
-        {
-            "title": "sz",
-            "suggestions": [
-                "szal woalowy",
-                "szalik na zimę",
-                "szaliczek",
-                "szlafrok",
-                "szelki"
-            ]
+          "url": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"
         }
-    ],
-    "offers": [{
-            "id": "2",
-            "status": "active",
-            "title": "Hoodie XS",
-            "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"
-            }],
-            "price": 23.32,
-            "seller": {
-                "id": "2",
-                "name": "Iza Pracz",
-                "is_online": true,
-                "phone": "222 222 222"
-            },
-            "category": {
-                "id": 2,
-                "name": "Bluzy"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 332
-        },
+      ],
+      "price": 23.32,
+      "seller": {
+        "id": "2",
+        "name": "Iza Pracz",
+        "is_online": true,
+        "phone": "222 222 222"
+      },
+      "category": {
+        "id": 2,
+        "name": "Bluzy"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 332
+    },
+    {
+      "id": "3",
+      "status": "active",
+      "title": "Spodnie XXL",
+      "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
         {
-            "id": "3",
-            "status": "active",
-            "title": "Spodnie XXL",
-            "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"
-            }],
-            "price": 50,
-            "seller": {
-                "id": "2",
-                "name": "Iza Pracz",
-                "is_online": true,
-                "phone": "222 222 222"
-            },
-            "category": {
-                "id": 3,
-                "name": "Spodnie"
-            },
-            "added_at": "2020-03-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "4",
-            "status": "active",
-            "title": "Skarpetki, NOWE, 38",
-            "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"
-            }],
-            "price": 4.99,
-            "seller": {
-                "id": "33",
-                "name": "Hvlie Vitkievicz",
-                "is_online": true,
-                "phone": "333 333 333"
-            },
-            "category": {
-                "id": 4,
-                "name": "Skarpety"
-            },
-            "added_at": "2020-03-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "5",
-            "status": "active",
-            "title": "Eleganckie skórzane rękawiczki, stan idealny",
-            "description": "Na ogłoszenie trafiają rękawiczki mojej babci - wyprzedaję jej szafę bo ona nie umie obsługiwać komputera. Wykonane z barwionej skóry węża. Pomimo wielu lat, nadal są w doskonałym stanie. Rozmiar ręki: mała",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"
-            }],
-            "price": 30,
-            "seller": {
-                "id": "33",
-                "name": "Hvlie Vitkievicz",
-                "is_online": true,
-                "phone": "333 333 333"
-            },
-            "category": {
-                "id": 5,
-                "name": "Rękawiczki"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "6",
-            "status": "active",
-            "title": "Spodnie XS",
-            "description": "Spodnie dresowe 2 kieszenie na dole nogawek ściągacze w pasie sznureczek i gumka Rozmiar Xs S M L XL WYMIARY: Długość całkowita - 93cm Obwód w biodrach- 98cm Obwód w pasie - 62-80cm Stan- 26cm wysyłka 10zł przy wpłacie na konto wysyłka 26zł za pobraniem ",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"
-            }],
-            "price": 25,
-            "seller": {
-                "id": "33",
-                "name": "Hvlie Vitkievicz",
-                "is_online": true,
-                "phone": "333 333 333"
-            },
-            "category": {
-                "id": 3,
-                "name": "Spodnie"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "7",
-            "status": "active",
-            "title": "Skarpetki Olgi, NOWE, 38",
-            "description": "Skarpetki Damskie firmy Adidas. Super jakość. Premium. 100% bawełna. Dostępne wzory/kolory takie jak na zdjęciach. Sprzedaje paczkami po 12 par. Cena: 49.99zł - 1paczka (12 par) Rozmiar: 36-41 WYSYŁKA: Pobranie (płatność przy odbiorze) Kurier DPD: 25zł (nie ma możliwości innej wysyłki) Za wysyłkę płacisz raz, niezależnie od ilości zamówionych rzeczy. ZAPRASZAM RÓWNIEŻ NA MOJE INNE OGŁOSZENIA. Duży wybór w niskich cenach. Zamówienia proszę składać w wiadomości lub telefonicznie. JAK ZŁOŻYĆ ZAMÓWIENIE? Napisz w wiadomości: 1. Co dokładnie zamawiasz? 2. Dokładne dane do wysyłki (imię i nazwisko, ulica, numer domu/mieszkania, kod pocztowy, miejscowość, numer telefonu). GWARANTUJEMY 100% zadowolenia! :) ",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg"
-            }],
-            "price": 4.99,
-            "seller": {
-                "id": "1",
-                "name": "Olga Nowak",
-                "is_online": true,
-                "phone": "111 222 333"
-            },
-            "category": {
-                "id": 4,
-                "name": "Skarpety"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "8",
-            "status": "active",
-            "title": "Dresy babyblue",
-            "description": "Witam, sprzedam nowy dres adidas kolor babyblue rozmia s płaciłam za niego 150zł sprzedam za 99zł",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                    "url": "https://www.27wear.pl/images/items/50/4c2db37e-26b6-407b-b980-ebee216b1a77_big.jpg"
-                },
-                {
-                    "url": "https://www.27wear.pl/images/items/50/b3b7cb0c-be3a-446e-9348-9e01a7df70f8_big.jpg"
-                }
-            ],
-            "price": 99,
-            "seller": {
-                "id": "1",
-                "name": "Olga Nowak",
-                "is_online": true,
-                "phone": "111 222 333"
-            },
-            "category": {
-                "id": 3,
-                "name": "Spodnie"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "9",
-            "status": "active",
-            "title": "Spodnie XXL",
-            "description": "Spodnie typu joggers marki ZARA. Z boku dwukołowy lampas. Nogawki zakończone ściągaczem. Na metce XXL ale rozmiarówka odpowiada 50-52. Polecam! :)",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg"
-            }],
-            "price": 50,
-            "seller": {
-                "id": "1",
-                "name": "Olga Nowak",
-                "is_online": true,
-                "phone": "111 222 333"
-            },
-            "category": {
-                "id": 3,
-                "name": "Spodnie"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "10",
-            "status": "active",
-            "title": "Nasturcja, nasiona",
-            "description": "Nasturcja karłowa jest rośliną jednoroczną pochodzącą z Ameryki Południowej. Posiada gładkie, wiotkie pędy i kwiaty w kształcie otwartego kielicha o średnicy około 7cm. Kwitnie od czerwca do października i osiąga 30cm wysokości. Liście ma duże, tarczowate w kolorze od jasnozielonego do niebieskozielonych o przyjemnym zapachu. Wysiew nasion w miejscu słonecznym lub półcieniu od kwietnia do maja w glebie próchniczej dobrze zdrenowanej, wilgotnej. Nadmiar składników pokarmowych sprzyja wzrostu liści, a nie kwiatów. Idealna do ogrodu na obwódki kwiatowe, do donic i skrzynek balkonowych. Opakowanie 6g. Wystawiamy paragon lub fakturę. Wysyłka paczkomatem - za kilka produktów płacisz raz. Zapraszamy do obejrzenia naszych pozostałych ogłoszeń. ",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                    "url": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg"
-                },
-                {
-                    "url": "https://budujesz.info/pliki/image/foto/duze/plik56698a6c7d7c8.jpg"
-                },
-                {
-                    "url": "https://lh3.googleusercontent.com/proxy/-6R4T2gWRMu24n2ieD47VzX8bQR2GXhf-EOgAJo_xD5XdioxLUMpX7Mx0bnB_2Tfy3m64p6czmBvcz-rkaGhUBgEhC99ftCVFSQ6jhJosnlEL9w5DLvgS_qqt2GmorFj1kcpiJJlBYgLUXo32iouFUe1Su4MXTp-Hbs"
-                }
-            ],
-            "price": 1.99,
-            "seller": {
-                "id": "1",
-                "name": "Olga Nowak",
-                "is_online": true,
-                "phone": "111 222 333"
-            },
-            "category": {
-                "id": 6,
-                "name": "Nasiona"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "1",
-            "status": "active",
-            "title": "New Shoes",
-            "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                    "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg"
-                },
-                {
-                    "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Rozowy_BB5472_01_standard.jpg"
-                },
-                {
-                    "url": "https://sklep.sizeer.com/media/cache/gallery/rc/m6booqge/adidas-gazelle-meskie-sneakersy-czarny-bb5476_2.jpg"
-                }
-            ],
-            "price": 123,
-            "seller": {
-                "id": "1",
-                "name": "Olga Nowak",
-                "is_online": true,
-                "phone": "111 222 333"
-            },
-            "category": {
-                "id": 1,
-                "name": "Obuwie"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "11",
-            "status": "active",
-            "title": "Szafa, jak nowa",
-            "description": "Świetna szafa z pokoju mojego syna. Mu się znudziła. Mój numer to 123 123 123",
-            "location": {
-                "name": "Zakopane",
-                "lat": 49.299030,
-                "long": 19.949047
-            },
-            "images": [{
-                "url": "https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13"
-            }],
-            "price": 450,
-            "seller": {
-                "id": "3",
-                "name": "Albercik Zubek",
-                "is_online": true,
-                "phone": "222 222 222"
-            },
-            "category": {
-                "id": 7,
-                "name": "Meble"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 444
-        },
-        {
-            "id": "12",
-            "status": "active",
-            "title": "Drewno sosnowe",
-            "description": "POsiadam duże ilości sosnowego drzewa - do stolarki, budowania domów, altan. Prosze o kontakt. cena za metr bieżący",
-            "location": {
-                "name": "Zakopane",
-                "lat": 49.299030,
-                "long": 19.949047
-            },
-            "images": [{
-                    "url": "https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno"
-                },
-                {
-                    "url": "https://e.allegroimg.com/s512/03d66a/e3a9ebb44f269442f5d48627374e/Drewno-stare-z-rozbiorki-110lat-deski-Sosna"
-                }
-            ],
-            "price": 40,
-            "seller": {
-                "id": "3",
-                "name": "Albercik Zubek",
-                "is_online": true,
-                "phone": "222 222 222"
-            },
-            "category": {
-                "id": 10,
-                "name": "Drewno"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 12342
-        },
-        {
-            "id": "13",
-            "status": "active",
-            "title": "Rower dziecięcy",
-            "description": "Fajny rowero, nie powiem że nie. Jeździ. Mój numer to 123 123 123",
-            "location": {
-                "name": "Zakopane",
-                "lat": 49.299030,
-                "long": 19.949047
-            },
-            "images": [{
-                "url": "https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg"
-            }],
-            "price": 450,
-            "seller": {
-                "id": "3",
-                "name": "Albercik Zubek",
-                "is_online": true,
-                "phone": "222 222 222"
-            },
-            "category": {
-                "id": 11,
-                "name": "Rowery"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 2
-        },
-        {
-            "id": "14",
-            "status": "active",
-            "title": "Rower Galaxy MTB",
-            "description": "Rower górski Galaxy Skylab Acera 29. Rowem męski Galaxy Skylab Acera 29. Mój numer to 123 123 123 ",
-            "location": {
-                "name": "Zakopane",
-                "lat": 49.299030,
-                "long": 19.949047
-            },
-            "images": [{
-                    "url": "https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg"
-                },
-                {
-                    "url": "https://thumbs.img-sprzedajemy.pl/1000x901c/6c/26/76/rower-mtb-galaxy-nowy-zamosc-462253426.jpg"
-                }
-            ],
-            "price": 450,
-            "seller": {
-                "id": "3",
-                "name": "Albercik Zubek",
-                "is_online": true,
-                "phone": "222 222 222"
-            },
-            "category": {
-                "id": 11,
-                "name": "Rowery"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 2
-        },
-        {
-            "id": "15",
-            "status": "active",
-            "title": "Dresy męskie",
-            "description": "Dresy czarne. Dobra cena dobra jakość. Mój numer to 123 123 123",
-            "location": {
-                "name": "Zakopane",
-                "lat": 49.299030,
-                "long": 19.949047
-            },
-            "images": [{
-                "url": "https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE"
-            }],
-            "price": 450,
-            "seller": {
-                "id": "3",
-                "name": "Albercik Zubek",
-                "is_online": true,
-                "phone": "222 222 222"
-            },
-            "category": {
-                "id": 3,
-                "name": "Spodnie"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 2
+          "url": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"
         }
-
-    ],
-    "accountSettings": {
+      ],
+      "price": 50,
+      "seller": {
+        "id": "2",
+        "name": "Iza Pracz",
+        "is_online": true,
+        "phone": "222 222 222"
+      },
+      "category": {
+        "id": 3,
+        "name": "Spodnie"
+      },
+      "added_at": "2020-03-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "4",
+      "status": "active",
+      "title": "Skarpetki, NOWE, 38",
+      "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"
+        }
+      ],
+      "price": 4.99,
+      "seller": {
         "id": "33",
         "name": "Hvlie Vitkievicz",
-        "username": "hvlie",
-        "location": {
-            "name": "Toruń",
-            "lat": 53.013790,
-            "long": 18.598444
-        },
-        "phone": "333 333 333",
-        "pricing": "Pro",
-        "imageUrl": "https://getuikit.com/docs/images/avatar.jpg"
+        "is_online": true,
+        "phone": "333 333 333"
+      },
+      "category": {
+        "id": 4,
+        "name": "Skarpety"
+      },
+      "added_at": "2020-03-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
     },
-    "myOffers": [{
-            "id": "4",
-            "status": "active",
-            "title": "Skarpetki, NOWE, 38",
-            "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"
-            }],
-            "price": 4.99,
-            "seller": {
-                "id": "33",
-                "name": "Hvlie Vitkievicz",
-                "is_online": true,
-                "phone": "333 333 333"
-            },
-            "category": {
-                "id": 4,
-                "name": "Skarpety"
-            },
-            "added_at": "2020-03-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
+    {
+      "id": "5",
+      "status": "active",
+      "title": "Eleganckie skórzane rękawiczki, stan idealny",
+      "description": "Na ogłoszenie trafiają rękawiczki mojej babci - wyprzedaję jej szafę bo ona nie umie obsługiwać komputera. Wykonane z barwionej skóry węża. Pomimo wielu lat, nadal są w doskonałym stanie. Rozmiar ręki: mała",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
         {
-            "id": "5",
-            "status": "active",
-            "title": "Eleganckie skórzane rękawiczki, stan idealny",
-            "description": "Na ogłoszenie trafiają rękawiczki mojej babci - wyprzedaję jej szafę bo ona nie umie obsługiwać komputera. Wykonane z barwionej skóry węża. Pomimo wielu lat, nadal są w doskonałym stanie. Rozmiar ręki: mała",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"
-            }],
-            "price": 30,
-            "seller": {
-                "id": "33",
-                "name": "Hvlie Vitkievicz",
-                "is_online": true,
-                "phone": "333 333 333"
-            },
-            "category": {
-                "id": 5,
-                "name": "Rękawiczki"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
-        },
-        {
-            "id": "6",
-            "status": "active",
-            "title": "Spodnie XS",
-            "description": "Spodnie dresowe 2 kieszenie na dole nogawek ściągacze w pasie sznureczek i gumka Rozmiar Xs S M L XL WYMIARY: Długość całkowita - 93cm Obwód w biodrach- 98cm Obwód w pasie - 62-80cm Stan- 26cm wysyłka 10zł przy wpłacie na konto wysyłka 26zł za pobraniem ",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "images": [{
-                "url": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"
-            }],
-            "price": 25,
-            "seller": {
-                "id": "33",
-                "name": "Hvlie Vitkievicz",
-                "is_online": true,
-                "phone": "333 333 333"
-            },
-            "category": {
-                "id": 3,
-                "name": "Spodnie"
-            },
-            "added_at": "2019-12-27T07:45:00Z",
-            "valid_to": "2020-07-27T07:45:00Z",
-            "views": 123
+          "url": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"
         }
-    ],
-    "users": [{
+      ],
+      "price": 30,
+      "seller": {
+        "id": "33",
+        "name": "Hvlie Vitkievicz",
+        "is_online": true,
+        "phone": "333 333 333"
+      },
+      "category": {
+        "id": 5,
+        "name": "Rękawiczki"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "6",
+      "status": "active",
+      "title": "Spodnie XS",
+      "description": "Spodnie dresowe 2 kieszenie na dole nogawek ściągacze w pasie sznureczek i gumka Rozmiar Xs S M L XL WYMIARY: Długość całkowita - 93cm Obwód w biodrach- 98cm Obwód w pasie - 62-80cm Stan- 26cm wysyłka 10zł przy wpłacie na konto wysyłka 26zł za pobraniem ",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"
+        }
+      ],
+      "price": 25,
+      "seller": {
+        "id": "33",
+        "name": "Hvlie Vitkievicz",
+        "is_online": true,
+        "phone": "333 333 333"
+      },
+      "category": {
+        "id": 3,
+        "name": "Spodnie"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "7",
+      "status": "active",
+      "title": "Skarpetki Olgi, NOWE, 38",
+      "description": "Skarpetki Damskie firmy Adidas. Super jakość. Premium. 100% bawełna. Dostępne wzory/kolory takie jak na zdjęciach. Sprzedaje paczkami po 12 par. Cena: 49.99zł - 1paczka (12 par) Rozmiar: 36-41 WYSYŁKA: Pobranie (płatność przy odbiorze) Kurier DPD: 25zł (nie ma możliwości innej wysyłki) Za wysyłkę płacisz raz, niezależnie od ilości zamówionych rzeczy. ZAPRASZAM RÓWNIEŻ NA MOJE INNE OGŁOSZENIA. Duży wybór w niskich cenach. Zamówienia proszę składać w wiadomości lub telefonicznie. JAK ZŁOŻYĆ ZAMÓWIENIE? Napisz w wiadomości: 1. Co dokładnie zamawiasz? 2. Dokładne dane do wysyłki (imię i nazwisko, ulica, numer domu/mieszkania, kod pocztowy, miejscowość, numer telefonu). GWARANTUJEMY 100% zadowolenia! :) ",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg"
+        }
+      ],
+      "price": 4.99,
+      "seller": {
+        "id": "1",
+        "name": "Olga Nowak",
+        "is_online": true,
+        "phone": "111 222 333"
+      },
+      "category": {
+        "id": 4,
+        "name": "Skarpety"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "8",
+      "status": "active",
+      "title": "Dresy babyblue",
+      "description": "Witam, sprzedam nowy dres adidas kolor babyblue rozmia s płaciłam za niego 150zł sprzedam za 99zł",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://www.27wear.pl/images/items/50/4c2db37e-26b6-407b-b980-ebee216b1a77_big.jpg"
+        },
+        {
+          "url": "https://www.27wear.pl/images/items/50/b3b7cb0c-be3a-446e-9348-9e01a7df70f8_big.jpg"
+        }
+      ],
+      "price": 99,
+      "seller": {
+        "id": "1",
+        "name": "Olga Nowak",
+        "is_online": true,
+        "phone": "111 222 333"
+      },
+      "category": {
+        "id": 3,
+        "name": "Spodnie"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "9",
+      "status": "active",
+      "title": "Spodnie XXL",
+      "description": "Spodnie typu joggers marki ZARA. Z boku dwukołowy lampas. Nogawki zakończone ściągaczem. Na metce XXL ale rozmiarówka odpowiada 50-52. Polecam! :)",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg"
+        }
+      ],
+      "price": 50,
+      "seller": {
+        "id": "1",
+        "name": "Olga Nowak",
+        "is_online": true,
+        "phone": "111 222 333"
+      },
+      "category": {
+        "id": 3,
+        "name": "Spodnie"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "10",
+      "status": "active",
+      "title": "Nasturcja, nasiona",
+      "description": "Nasturcja karłowa jest rośliną jednoroczną pochodzącą z Ameryki Południowej. Posiada gładkie, wiotkie pędy i kwiaty w kształcie otwartego kielicha o średnicy około 7cm. Kwitnie od czerwca do października i osiąga 30cm wysokości. Liście ma duże, tarczowate w kolorze od jasnozielonego do niebieskozielonych o przyjemnym zapachu. Wysiew nasion w miejscu słonecznym lub półcieniu od kwietnia do maja w glebie próchniczej dobrze zdrenowanej, wilgotnej. Nadmiar składników pokarmowych sprzyja wzrostu liści, a nie kwiatów. Idealna do ogrodu na obwódki kwiatowe, do donic i skrzynek balkonowych. Opakowanie 6g. Wystawiamy paragon lub fakturę. Wysyłka paczkomatem - za kilka produktów płacisz raz. Zapraszamy do obejrzenia naszych pozostałych ogłoszeń. ",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg"
+        },
+        {
+          "url": "https://budujesz.info/pliki/image/foto/duze/plik56698a6c7d7c8.jpg"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/proxy/-6R4T2gWRMu24n2ieD47VzX8bQR2GXhf-EOgAJo_xD5XdioxLUMpX7Mx0bnB_2Tfy3m64p6czmBvcz-rkaGhUBgEhC99ftCVFSQ6jhJosnlEL9w5DLvgS_qqt2GmorFj1kcpiJJlBYgLUXo32iouFUe1Su4MXTp-Hbs"
+        }
+      ],
+      "price": 1.99,
+      "seller": {
+        "id": "1",
+        "name": "Olga Nowak",
+        "is_online": true,
+        "phone": "111 222 333"
+      },
+      "category": {
+        "id": 6,
+        "name": "Nasiona"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "1",
+      "status": "active",
+      "title": "New Shoes",
+      "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg"
+        },
+        {
+          "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Rozowy_BB5472_01_standard.jpg"
+        },
+        {
+          "url": "https://sklep.sizeer.com/media/cache/gallery/rc/m6booqge/adidas-gazelle-meskie-sneakersy-czarny-bb5476_2.jpg"
+        }
+      ],
+      "price": 123,
+      "seller": {
+        "id": "1",
+        "name": "Olga Nowak",
+        "is_online": true,
+        "phone": "111 222 333"
+      },
+      "category": {
+        "id": 1,
+        "name": "Obuwie"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "11",
+      "status": "active",
+      "title": "Szafa, jak nowa",
+      "description": "Świetna szafa z pokoju mojego syna. Mu się znudziła. Mój numer to 123 123 123",
+      "location": {
+        "name": "Zakopane",
+        "lat": 49.29903,
+        "long": 19.949047
+      },
+      "images": [
+        {
+          "url": "https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13"
+        }
+      ],
+      "price": 450,
+      "seller": {
+        "id": "3",
+        "name": "Albercik Zubek",
+        "is_online": true,
+        "phone": "222 222 222"
+      },
+      "category": {
+        "id": 7,
+        "name": "Meble"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 444
+    },
+    {
+      "id": "12",
+      "status": "active",
+      "title": "Drewno sosnowe",
+      "description": "POsiadam duże ilości sosnowego drzewa - do stolarki, budowania domów, altan. Prosze o kontakt. cena za metr bieżący",
+      "location": {
+        "name": "Zakopane",
+        "lat": 49.29903,
+        "long": 19.949047
+      },
+      "images": [
+        {
+          "url": "https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno"
+        },
+        {
+          "url": "https://e.allegroimg.com/s512/03d66a/e3a9ebb44f269442f5d48627374e/Drewno-stare-z-rozbiorki-110lat-deski-Sosna"
+        }
+      ],
+      "price": 40,
+      "seller": {
+        "id": "3",
+        "name": "Albercik Zubek",
+        "is_online": true,
+        "phone": "222 222 222"
+      },
+      "category": {
+        "id": 10,
+        "name": "Drewno"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 12342
+    },
+    {
+      "id": "13",
+      "status": "active",
+      "title": "Rower dziecięcy",
+      "description": "Fajny rowero, nie powiem że nie. Jeździ. Mój numer to 123 123 123",
+      "location": {
+        "name": "Zakopane",
+        "lat": 49.29903,
+        "long": 19.949047
+      },
+      "images": [
+        {
+          "url": "https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg"
+        }
+      ],
+      "price": 450,
+      "seller": {
+        "id": "3",
+        "name": "Albercik Zubek",
+        "is_online": true,
+        "phone": "222 222 222"
+      },
+      "category": {
+        "id": 11,
+        "name": "Rowery"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 2
+    },
+    {
+      "id": "14",
+      "status": "active",
+      "title": "Rower Galaxy MTB",
+      "description": "Rower górski Galaxy Skylab Acera 29. Rowem męski Galaxy Skylab Acera 29. Mój numer to 123 123 123 ",
+      "location": {
+        "name": "Zakopane",
+        "lat": 49.29903,
+        "long": 19.949047
+      },
+      "images": [
+        {
+          "url": "https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg"
+        },
+        {
+          "url": "https://thumbs.img-sprzedajemy.pl/1000x901c/6c/26/76/rower-mtb-galaxy-nowy-zamosc-462253426.jpg"
+        }
+      ],
+      "price": 450,
+      "seller": {
+        "id": "3",
+        "name": "Albercik Zubek",
+        "is_online": true,
+        "phone": "222 222 222"
+      },
+      "category": {
+        "id": 11,
+        "name": "Rowery"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 2
+    },
+    {
+      "id": "15",
+      "status": "active",
+      "title": "Dresy męskie",
+      "description": "Dresy czarne. Dobra cena dobra jakość. Mój numer to 123 123 123",
+      "location": {
+        "name": "Zakopane",
+        "lat": 49.29903,
+        "long": 19.949047
+      },
+      "images": [
+        {
+          "url": "https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE"
+        }
+      ],
+      "price": 450,
+      "seller": {
+        "id": "3",
+        "name": "Albercik Zubek",
+        "is_online": true,
+        "phone": "222 222 222"
+      },
+      "category": {
+        "id": 3,
+        "name": "Spodnie"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 2
+    }
+  ],
+  "accountSettings": {
+    "id": "33",
+    "name": "Hvlie Vitkievicz",
+    "username": "hvlie",
+    "location": {
+      "name": "Toruń",
+      "lat": 53.01379,
+      "long": 18.598444
+    },
+    "phone": "333 333 333",
+    "pricing": "Pro",
+    "imageUrl": "https://getuikit.com/docs/images/avatar.jpg"
+  },
+  "myOffers": [
+    {
+      "id": "4",
+      "status": "active",
+      "title": "Skarpetki, NOWE, 38",
+      "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"
+        }
+      ],
+      "price": 4.99,
+      "seller": {
+        "id": "33",
+        "name": "Hvlie Vitkievicz",
+        "is_online": true,
+        "phone": "333 333 333"
+      },
+      "category": {
+        "id": 4,
+        "name": "Skarpety"
+      },
+      "added_at": "2020-03-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "5",
+      "status": "active",
+      "title": "Eleganckie skórzane rękawiczki, stan idealny",
+      "description": "Na ogłoszenie trafiają rękawiczki mojej babci - wyprzedaję jej szafę bo ona nie umie obsługiwać komputera. Wykonane z barwionej skóry węża. Pomimo wielu lat, nadal są w doskonałym stanie. Rozmiar ręki: mała",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"
+        }
+      ],
+      "price": 30,
+      "seller": {
+        "id": "33",
+        "name": "Hvlie Vitkievicz",
+        "is_online": true,
+        "phone": "333 333 333"
+      },
+      "category": {
+        "id": 5,
+        "name": "Rękawiczki"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    },
+    {
+      "id": "6",
+      "status": "active",
+      "title": "Spodnie XS",
+      "description": "Spodnie dresowe 2 kieszenie na dole nogawek ściągacze w pasie sznureczek i gumka Rozmiar Xs S M L XL WYMIARY: Długość całkowita - 93cm Obwód w biodrach- 98cm Obwód w pasie - 62-80cm Stan- 26cm wysyłka 10zł przy wpłacie na konto wysyłka 26zł za pobraniem ",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "images": [
+        {
+          "url": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"
+        }
+      ],
+      "price": 25,
+      "seller": {
+        "id": "33",
+        "name": "Hvlie Vitkievicz",
+        "is_online": true,
+        "phone": "333 333 333"
+      },
+      "category": {
+        "id": 3,
+        "name": "Spodnie"
+      },
+      "added_at": "2019-12-27T07:45:00Z",
+      "valid_to": "2020-07-27T07:45:00Z",
+      "views": 123
+    }
+  ],
+  "users": [
+    {
+      "id": "33",
+      "name": "Hvlie Vitkievicz",
+      "username": "hvlie",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "is_online": true,
+      "image_url": "https://getuikit.com/docs/images/avatar.jpg",
+      "offers_count": 3,
+      "offers": [
+        {
+          "id": "4",
+          "status": "active",
+          "title": "Skarpetki, NOWE, 38",
+          "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"
+            }
+          ],
+          "price": 4.99,
+          "seller": {
             "id": "33",
             "name": "Hvlie Vitkievicz",
-            "username": "hvlie",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
             "is_online": true,
-            "image_url": "https://getuikit.com/docs/images/avatar.jpg",
-            "offers_count": 3,
-            "offers": [{
-                    "id": "4",
-                    "status": "active",
-                    "title": "Skarpetki, NOWE, 38",
-                    "description": "Skarpetki dla kobiet w rozmiarze 38. Posiadam na stanie 20 sztuk. Chętnych zapraszam pod numer 554 333 222",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                        "url": "https://www.glamour.pl/media/cache/gallery_view/uploads/media/default/0002/93/ede0de5a3ff2bc991ae42e16e26c411e38c3efe0.jpeg"
-                    }],
-                    "price": 4.99,
-                    "seller": {
-                        "id": "33",
-                        "name": "Hvlie Vitkievicz",
-                        "is_online": true,
-                        "phone": "333 333 333"
-                    },
-                    "category": {
-                        "id": 4,
-                        "name": "Skarpety"
-                    },
-                    "added_at": "2020-03-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                },
-                {
-                    "id": "5",
-                    "status": "active",
-                    "title": "Eleganckie skórzane rękawiczki, stan idealny",
-                    "description": "Na ogłoszenie trafiają rękawiczki mojej babci - wyprzedaję jej szafę bo ona nie umie obsługiwać komputera. Wykonane z barwionej skóry węża. Pomimo wielu lat, nadal są w doskonałym stanie. Rozmiar ręki: mała",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                        "url": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"
-                    }],
-                    "price": 30,
-                    "seller": {
-                        "id": "33",
-                        "name": "Hvlie Vitkievicz",
-                        "is_online": true,
-                        "phone": "333 333 333"
-                    },
-                    "category": {
-                        "id": 5,
-                        "name": "Rękawiczki"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                },
-                {
-                    "id": "6",
-                    "status": "active",
-                    "title": "Spodnie XS",
-                    "description": "Spodnie dresowe 2 kieszenie na dole nogawek ściągacze w pasie sznureczek i gumka Rozmiar Xs S M L XL WYMIARY: Długość całkowita - 93cm Obwód w biodrach- 98cm Obwód w pasie - 62-80cm Stan- 26cm wysyłka 10zł przy wpłacie na konto wysyłka 26zł za pobraniem ",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                        "url": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"
-                    }],
-                    "price": 25,
-                    "seller": {
-                        "id": "33",
-                        "name": "Hvlie Vitkievicz",
-                        "is_online": true,
-                        "phone": "333 333 333"
-                    },
-                    "category": {
-                        "id": 3,
-                        "name": "Spodnie"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                }
-            ]
+            "phone": "333 333 333"
+          },
+          "category": {
+            "id": 4,
+            "name": "Skarpety"
+          },
+          "added_at": "2020-03-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
         },
         {
+          "id": "5",
+          "status": "active",
+          "title": "Eleganckie skórzane rękawiczki, stan idealny",
+          "description": "Na ogłoszenie trafiają rękawiczki mojej babci - wyprzedaję jej szafę bo ona nie umie obsługiwać komputera. Wykonane z barwionej skóry węża. Pomimo wielu lat, nadal są w doskonałym stanie. Rozmiar ręki: mała",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://static5.ebutik.pl/pol_pl_PREMIUM-QUALITY-Czarne-Skorzane-Damskie-Rekawiczki-299250_1.jpg"
+            }
+          ],
+          "price": 30,
+          "seller": {
+            "id": "33",
+            "name": "Hvlie Vitkievicz",
+            "is_online": true,
+            "phone": "333 333 333"
+          },
+          "category": {
+            "id": 5,
+            "name": "Rękawiczki"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
+        },
+        {
+          "id": "6",
+          "status": "active",
+          "title": "Spodnie XS",
+          "description": "Spodnie dresowe 2 kieszenie na dole nogawek ściągacze w pasie sznureczek i gumka Rozmiar Xs S M L XL WYMIARY: Długość całkowita - 93cm Obwód w biodrach- 98cm Obwód w pasie - 62-80cm Stan- 26cm wysyłka 10zł przy wpłacie na konto wysyłka 26zł za pobraniem ",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://images.vinted.net/thumbs/f800/046fe_HqjDGHCi3p279W9n1K6gxVaL.jpeg?1587721113-77a079e35ef9c185880f3eda4315b767ba439692"
+            }
+          ],
+          "price": 25,
+          "seller": {
+            "id": "33",
+            "name": "Hvlie Vitkievicz",
+            "is_online": true,
+            "phone": "333 333 333"
+          },
+          "category": {
+            "id": 3,
+            "name": "Spodnie"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Olga Nowak",
+      "username": "olgaa",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "is_online": true,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cheryl_Ann_Krause.jpg",
+      "offers_count": 5,
+      "offers": [
+        {
+          "id": "7",
+          "status": "active",
+          "title": "Skarpetki Olgi, NOWE, 38",
+          "description": "Skarpetki Damskie firmy Adidas. Super jakość. Premium. 100% bawełna. Dostępne wzory/kolory takie jak na zdjęciach. Sprzedaje paczkami po 12 par. Cena: 49.99zł - 1paczka (12 par) Rozmiar: 36-41 WYSYŁKA: Pobranie (płatność przy odbiorze) Kurier DPD: 25zł (nie ma możliwości innej wysyłki) Za wysyłkę płacisz raz, niezależnie od ilości zamówionych rzeczy. ZAPRASZAM RÓWNIEŻ NA MOJE INNE OGŁOSZENIA. Duży wybór w niskich cenach. Zamówienia proszę składać w wiadomości lub telefonicznie. JAK ZŁOŻYĆ ZAMÓWIENIE? Napisz w wiadomości: 1. Co dokładnie zamawiasz? 2. Dokładne dane do wysyłki (imię i nazwisko, ulica, numer domu/mieszkania, kod pocztowy, miejscowość, numer telefonu). GWARANTUJEMY 100% zadowolenia! :) ",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg"
+            }
+          ],
+          "price": 4.99,
+          "seller": {
             "id": "1",
             "name": "Olga Nowak",
-            "username": "olgaa",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
             "is_online": true,
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cheryl_Ann_Krause.jpg",
-            "offers_count": 5,
-            "offers": [{
-                    "id": "7",
-                    "status": "active",
-                    "title": "Skarpetki Olgi, NOWE, 38",
-                    "description": "Skarpetki Damskie firmy Adidas. Super jakość. Premium. 100% bawełna. Dostępne wzory/kolory takie jak na zdjęciach. Sprzedaje paczkami po 12 par. Cena: 49.99zł - 1paczka (12 par) Rozmiar: 36-41 WYSYŁKA: Pobranie (płatność przy odbiorze) Kurier DPD: 25zł (nie ma możliwości innej wysyłki) Za wysyłkę płacisz raz, niezależnie od ilości zamówionych rzeczy. ZAPRASZAM RÓWNIEŻ NA MOJE INNE OGŁOSZENIA. Duży wybór w niskich cenach. Zamówienia proszę składać w wiadomości lub telefonicznie. JAK ZŁOŻYĆ ZAMÓWIENIE? Napisz w wiadomości: 1. Co dokładnie zamawiasz? 2. Dokładne dane do wysyłki (imię i nazwisko, ulica, numer domu/mieszkania, kod pocztowy, miejscowość, numer telefonu). GWARANTUJEMY 100% zadowolenia! :) ",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                        "url": "https://i.pinimg.com/originals/ac/84/d7/ac84d7f878e419b5e07e27780f70519b.jpg"
-                    }],
-                    "price": 4.99,
-                    "seller": {
-                        "id": "1",
-                        "name": "Olga Nowak",
-                        "is_online": true,
-                        "phone": "111 222 333"
-                    },
-                    "category": {
-                        "id": 4,
-                        "name": "Skarpety"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                },
-                {
-                    "id": "8",
-                    "status": "active",
-                    "title": "Dresy babyblue",
-                    "description": "Witam, sprzedam nowy dres adidas kolor babyblue rozmia s płaciłam za niego 150zł sprzedam za 99zł",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                            "url": "https://www.27wear.pl/images/items/50/4c2db37e-26b6-407b-b980-ebee216b1a77_big.jpg"
-                        },
-                        {
-                            "url": "https://www.27wear.pl/images/items/50/b3b7cb0c-be3a-446e-9348-9e01a7df70f8_big.jpg"
-                        }
-                    ],
-                    "price": 99,
-                    "seller": {
-                        "id": "1",
-                        "name": "Olga Nowak",
-                        "is_online": true,
-                        "phone": "111 222 333"
-                    },
-                    "category": {
-                        "id": 3,
-                        "name": "Spodnie"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                },
-                {
-                    "id": "9",
-                    "status": "active",
-                    "title": "Spodnie XXL",
-                    "description": "Spodnie typu joggers marki ZARA. Z boku dwukołowy lampas. Nogawki zakończone ściągaczem. Na metce XXL ale rozmiarówka odpowiada 50-52. Polecam! :)",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                        "url": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg"
-                    }],
-                    "price": 50,
-                    "seller": {
-                        "id": "1",
-                        "name": "Olga Nowak",
-                        "is_online": true,
-                        "phone": "111 222 333"
-                    },
-                    "category": {
-                        "id": 3,
-                        "name": "Spodnie"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                },
-                {
-                    "id": "10",
-                    "status": "active",
-                    "title": "Nasturcja, nasiona",
-                    "description": "Nasturcja karłowa jest rośliną jednoroczną pochodzącą z Ameryki Południowej. Posiada gładkie, wiotkie pędy i kwiaty w kształcie otwartego kielicha o średnicy około 7cm. Kwitnie od czerwca do października i osiąga 30cm wysokości. Liście ma duże, tarczowate w kolorze od jasnozielonego do niebieskozielonych o przyjemnym zapachu. Wysiew nasion w miejscu słonecznym lub półcieniu od kwietnia do maja w glebie próchniczej dobrze zdrenowanej, wilgotnej. Nadmiar składników pokarmowych sprzyja wzrostu liści, a nie kwiatów. Idealna do ogrodu na obwódki kwiatowe, do donic i skrzynek balkonowych. Opakowanie 6g. Wystawiamy paragon lub fakturę. Wysyłka paczkomatem - za kilka produktów płacisz raz. Zapraszamy do obejrzenia naszych pozostałych ogłoszeń. ",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                            "url": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg"
-                        },
-                        {
-                            "url": "https://budujesz.info/pliki/image/foto/duze/plik56698a6c7d7c8.jpg"
-                        },
-                        {
-                            "url": "https://lh3.googleusercontent.com/proxy/-6R4T2gWRMu24n2ieD47VzX8bQR2GXhf-EOgAJo_xD5XdioxLUMpX7Mx0bnB_2Tfy3m64p6czmBvcz-rkaGhUBgEhC99ftCVFSQ6jhJosnlEL9w5DLvgS_qqt2GmorFj1kcpiJJlBYgLUXo32iouFUe1Su4MXTp-Hbs"
-                        }
-                    ],
-                    "price": 1.99,
-                    "seller": {
-                        "id": "1",
-                        "name": "Olga Nowak",
-                        "is_online": true,
-                        "phone": "111 222 333"
-                    },
-                    "category": {
-                        "id": 6,
-                        "name": "Nasiona"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                },
-                {
-                    "id": "1",
-                    "status": "active",
-                    "title": "New Shoes",
-                    "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                            "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg"
-                        },
-                        {
-                            "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Rozowy_BB5472_01_standard.jpg"
-                        },
-                        {
-                            "url": "https://sklep.sizeer.com/media/cache/gallery/rc/m6booqge/adidas-gazelle-meskie-sneakersy-czarny-bb5476_2.jpg"
-                        }
-                    ],
-                    "price": 123,
-                    "seller": {
-                        "id": "1",
-                        "name": "Olga Nowak",
-                        "is_online": true,
-                        "phone": "111 222 333"
-                    },
-                    "category": {
-                        "id": 1,
-                        "name": "Obuwie"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                }
-            ]
+            "phone": "111 222 333"
+          },
+          "category": {
+            "id": 4,
+            "name": "Skarpety"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
         },
         {
+          "id": "8",
+          "status": "active",
+          "title": "Dresy babyblue",
+          "description": "Witam, sprzedam nowy dres adidas kolor babyblue rozmia s płaciłam za niego 150zł sprzedam za 99zł",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://www.27wear.pl/images/items/50/4c2db37e-26b6-407b-b980-ebee216b1a77_big.jpg"
+            },
+            {
+              "url": "https://www.27wear.pl/images/items/50/b3b7cb0c-be3a-446e-9348-9e01a7df70f8_big.jpg"
+            }
+          ],
+          "price": 99,
+          "seller": {
+            "id": "1",
+            "name": "Olga Nowak",
+            "is_online": true,
+            "phone": "111 222 333"
+          },
+          "category": {
+            "id": 3,
+            "name": "Spodnie"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
+        },
+        {
+          "id": "9",
+          "status": "active",
+          "title": "Spodnie XXL",
+          "description": "Spodnie typu joggers marki ZARA. Z boku dwukołowy lampas. Nogawki zakończone ściągaczem. Na metce XXL ale rozmiarówka odpowiada 50-52. Polecam! :)",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://media1.popsugar-assets.com/files/thumbor/52ZU7ANWhpIBTw8wiBLECMzi5CE/0x0:640x640/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/01/21/987/n/1922564/0ebc7c415e277e5b27d524.02007841_/i/jeans-outfit-ideas-for-winter-from-instagram.jpg"
+            }
+          ],
+          "price": 50,
+          "seller": {
+            "id": "1",
+            "name": "Olga Nowak",
+            "is_online": true,
+            "phone": "111 222 333"
+          },
+          "category": {
+            "id": 3,
+            "name": "Spodnie"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
+        },
+        {
+          "id": "10",
+          "status": "active",
+          "title": "Nasturcja, nasiona",
+          "description": "Nasturcja karłowa jest rośliną jednoroczną pochodzącą z Ameryki Południowej. Posiada gładkie, wiotkie pędy i kwiaty w kształcie otwartego kielicha o średnicy około 7cm. Kwitnie od czerwca do października i osiąga 30cm wysokości. Liście ma duże, tarczowate w kolorze od jasnozielonego do niebieskozielonych o przyjemnym zapachu. Wysiew nasion w miejscu słonecznym lub półcieniu od kwietnia do maja w glebie próchniczej dobrze zdrenowanej, wilgotnej. Nadmiar składników pokarmowych sprzyja wzrostu liści, a nie kwiatów. Idealna do ogrodu na obwódki kwiatowe, do donic i skrzynek balkonowych. Opakowanie 6g. Wystawiamy paragon lub fakturę. Wysyłka paczkomatem - za kilka produktów płacisz raz. Zapraszamy do obejrzenia naszych pozostałych ogłoszeń. ",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://bi.im-g.pl/im/2c/42/17/z24387884AMP,W-medycynie-alternatywnej-nasturcje-wykorzystuje-s.jpg"
+            },
+            {
+              "url": "https://budujesz.info/pliki/image/foto/duze/plik56698a6c7d7c8.jpg"
+            },
+            {
+              "url": "https://lh3.googleusercontent.com/proxy/-6R4T2gWRMu24n2ieD47VzX8bQR2GXhf-EOgAJo_xD5XdioxLUMpX7Mx0bnB_2Tfy3m64p6czmBvcz-rkaGhUBgEhC99ftCVFSQ6jhJosnlEL9w5DLvgS_qqt2GmorFj1kcpiJJlBYgLUXo32iouFUe1Su4MXTp-Hbs"
+            }
+          ],
+          "price": 1.99,
+          "seller": {
+            "id": "1",
+            "name": "Olga Nowak",
+            "is_online": true,
+            "phone": "111 222 333"
+          },
+          "category": {
+            "id": 6,
+            "name": "Nasiona"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
+        },
+        {
+          "id": "1",
+          "status": "active",
+          "title": "New Shoes",
+          "description": "Mam do sprzedania nowe, nieużywane buty Adidas Ultraboost 19 Shoes. To jedna z najlepszych podeszw do biegania - niestety okazały się nietrafionym prezentem. W skrócie: - buty mają plecioną cholewkę w technologii motion-weave, która się idealnie dopasowuje do stopy,",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Czern_BB5476_01_standard.jpg"
+            },
+            {
+              "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Rozowy_BB5472_01_standard.jpg"
+            },
+            {
+              "url": "https://sklep.sizeer.com/media/cache/gallery/rc/m6booqge/adidas-gazelle-meskie-sneakersy-czarny-bb5476_2.jpg"
+            }
+          ],
+          "price": 123,
+          "seller": {
+            "id": "1",
+            "name": "Olga Nowak",
+            "is_online": true,
+            "phone": "111 222 333"
+          },
+          "category": {
+            "id": 1,
+            "name": "Obuwie"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Iza Pracz",
+      "username": "izkaa",
+      "location": {
+        "name": "Toruń",
+        "lat": 53.01379,
+        "long": 18.598444
+      },
+      "is_online": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jroxychix.jpeg",
+      "offers_count": 2,
+      "offers": [
+        {
+          "id": "2",
+          "status": "active",
+          "title": "Hoodie XS",
+          "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"
+            }
+          ],
+          "price": 23.32,
+          "seller": {
             "id": "2",
             "name": "Iza Pracz",
-            "username": "izkaa",
-            "location": {
-                "name": "Toruń",
-                "lat": 53.013790,
-                "long": 18.598444
-            },
-            "is_online": false,
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jroxychix.jpeg",
-            "offers_count": 2,
-            "offers": [{
-                    "id": "2",
-                    "status": "active",
-                    "title": "Hoodie XS",
-                    "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                        "url": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"
-                    }],
-                    "price": 23.32,
-                    "seller": {
-                        "id": "2",
-                        "name": "Iza Pracz",
-                        "is_online": true,
-                        "phone": "222 222 222"
-                    },
-                    "category": {
-                        "id": 2,
-                        "name": "Bluzy"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 332
-                },
-                {
-                    "id": "3",
-                    "status": "active",
-                    "title": "Spodnie XXL",
-                    "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
-                    "location": {
-                        "name": "Toruń",
-                        "lat": 53.013790,
-                        "long": 18.598444
-                    },
-                    "images": [{
-                        "url": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"
-                    }],
-                    "price": 50,
-                    "seller": {
-                        "id": "2",
-                        "name": "Iza Pracz",
-                        "is_online": true,
-                        "phone": "222 222 222"
-                    },
-                    "category": {
-                        "id": 3,
-                        "name": "Spodnie"
-                    },
-                    "added_at": "2020-03-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 123
-                }
-            ]
+            "is_online": true,
+            "phone": "222 222 222"
+          },
+          "category": {
+            "id": 2,
+            "name": "Bluzy"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 332
         },
         {
+          "id": "3",
+          "status": "active",
+          "title": "Spodnie XXL",
+          "description": "Mam do sprzedania nowe spodnie w rozmiarze XXL. Świetna jakość i marka. Polecam zobaczyć inne moje ogłoszenia",
+          "location": {
+            "name": "Toruń",
+            "lat": 53.01379,
+            "long": 18.598444
+          },
+          "images": [
+            {
+              "url": "https://images.vinted.net/thumbs/f800/00311_rngR8xYzEH5ZSjVx4gDB4ZMM.jpeg?1493619532-d0f8b5e8390eb233f37608f05d8bf77322ddb706"
+            }
+          ],
+          "price": 50,
+          "seller": {
+            "id": "2",
+            "name": "Iza Pracz",
+            "is_online": true,
+            "phone": "222 222 222"
+          },
+          "category": {
+            "id": 3,
+            "name": "Spodnie"
+          },
+          "added_at": "2020-03-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 123
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Albercik Zubek",
+      "username": "zubeko",
+      "location": {
+        "name": "Zakopane",
+        "lat": 49.29903,
+        "long": 19.949047
+      },
+      "is_online": true,
+      "image_url": "https://images.pexels.com/users/avatars/142259/spencer-selover-240.jpeg?w=256&h=256&fit=crop&crop=faces&auto=compress",
+      "offers_count": 4,
+      "offers": [
+        {
+          "id": "11",
+          "status": "active",
+          "title": "Szafa, jak nowa",
+          "description": "Świetna szafa z pokoju mojego syna. Mu się znudziła. Mój numer to 123 123 123",
+          "location": {
+            "name": "Zakopane",
+            "lat": 49.29903,
+            "long": 19.949047
+          },
+          "images": [
+            {
+              "url": "https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13"
+            }
+          ],
+          "price": 450,
+          "seller": {
             "id": "3",
             "name": "Albercik Zubek",
-            "username": "zubeko",
-            "location": {
-                "name": "Zakopane",
-                "lat": 49.299030,
-                "long": 19.949047
-            },
             "is_online": true,
-            "image_url": "https://images.pexels.com/users/avatars/142259/spencer-selover-240.jpeg?w=256&h=256&fit=crop&crop=faces&auto=compress",
-            "offers_count": 4,
-            "offers": [{
-                    "id": "11",
-                    "status": "active",
-                    "title": "Szafa, jak nowa",
-                    "description": "Świetna szafa z pokoju mojego syna. Mu się znudziła. Mój numer to 123 123 123",
-                    "location": {
-                        "name": "Zakopane",
-                        "lat": 49.299030,
-                        "long": 19.949047
-                    },
-                    "images": [{
-                        "url": "https://archiwum.allegro.pl/image//imagesNEW/big/dbe578ec596ec639b7d2651e09aa9b616a8fb0562647040871f40add30896a13"
-                    }],
-                    "price": 450,
-                    "seller": {
-                        "id": "3",
-                        "name": "Albercik Zubek",
-                        "is_online": true,
-                        "phone": "222 222 222"
-                    },
-                    "category": {
-                        "id": 7,
-                        "name": "Meble"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 444
-                },
-                {
-                    "id": "12",
-                    "status": "active",
-                    "title": "Drewno sosnowe",
-                    "description": "POsiadam duże ilości sosnowego drzewa - do stolarki, budowania domów, altan. Prosze o kontakt. cena za metr bieżący",
-                    "location": {
-                        "name": "Zakopane",
-                        "lat": 49.299030,
-                        "long": 19.949047
-                    },
-                    "images": [{
-                            "url": "https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno"
-                        },
-                        {
-                            "url": "https://e.allegroimg.com/s512/03d66a/e3a9ebb44f269442f5d48627374e/Drewno-stare-z-rozbiorki-110lat-deski-Sosna"
-                        }
-                    ],
-                    "price": 40,
-                    "seller": {
-                        "id": "3",
-                        "name": "Albercik Zubek",
-                        "is_online": true,
-                        "phone": "222 222 222"
-                    },
-                    "category": {
-                        "id": 10,
-                        "name": "Drewno"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 12342
-                },
-                {
-                    "id": "13",
-                    "status": "active",
-                    "title": "Rower dziecięcy",
-                    "description": "Fajny rowero, nie powiem że nie. Jeździ. Mój numer to 123 123 123",
-                    "location": {
-                        "name": "Zakopane",
-                        "lat": 49.299030,
-                        "long": 19.949047
-                    },
-                    "images": [{
-                        "url": "https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg"
-                    }],
-                    "price": 450,
-                    "seller": {
-                        "id": "3",
-                        "name": "Albercik Zubek",
-                        "is_online": true,
-                        "phone": "222 222 222"
-                    },
-                    "category": {
-                        "id": 11,
-                        "name": "Rowery"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 2
-                },
-                {
-                    "id": "14",
-                    "status": "active",
-                    "title": "Rower Galaxy MTB",
-                    "description": "Rower górski Galaxy Skylab Acera 29. Rowem męski Galaxy Skylab Acera 29. Mój numer to 123 123 123 ",
-                    "location": {
-                        "name": "Zakopane",
-                        "lat": 49.299030,
-                        "long": 19.949047
-                    },
-                    "images": [{
-                            "url": "https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg"
-                        },
-                        {
-                            "url": "https://thumbs.img-sprzedajemy.pl/1000x901c/6c/26/76/rower-mtb-galaxy-nowy-zamosc-462253426.jpg"
-                        }
-                    ],
-                    "price": 450,
-                    "seller": {
-                        "id": "3",
-                        "name": "Albercik Zubek",
-                        "is_online": true,
-                        "phone": "222 222 222"
-                    },
-                    "category": {
-                        "id": 11,
-                        "name": "Rowery"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 2
-                },
-                {
-                    "id": "15",
-                    "status": "active",
-                    "title": "Dresy męskie",
-                    "description": "Dresy czarne. Dobra cena dobra jakość. Mój numer to 123 123 123",
-                    "location": {
-                        "name": "Zakopane",
-                        "lat": 49.299030,
-                        "long": 19.949047
-                    },
-                    "images": [{
-                        "url": "https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE"
-                    }],
-                    "price": 450,
-                    "seller": {
-                        "id": "3",
-                        "name": "Albercik Zubek",
-                        "is_online": true,
-                        "phone": "222 222 222"
-                    },
-                    "category": {
-                        "id": 3,
-                        "name": "Spodnie"
-                    },
-                    "added_at": "2019-12-27T07:45:00Z",
-                    "valid_to": "2020-07-27T07:45:00Z",
-                    "views": 2
-                }
-            ]
+            "phone": "222 222 222"
+          },
+          "category": {
+            "id": 7,
+            "name": "Meble"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 444
+        },
+        {
+          "id": "12",
+          "status": "active",
+          "title": "Drewno sosnowe",
+          "description": "POsiadam duże ilości sosnowego drzewa - do stolarki, budowania domów, altan. Prosze o kontakt. cena za metr bieżący",
+          "location": {
+            "name": "Zakopane",
+            "lat": 49.29903,
+            "long": 19.949047
+          },
+          "images": [
+            {
+              "url": "https://a.allegroimg.com/s512/035dcd/462c62444e068e1f8818d1cbfc5a/Stare-Deski-150-200-cm-Stare-Drewno"
+            },
+            {
+              "url": "https://e.allegroimg.com/s512/03d66a/e3a9ebb44f269442f5d48627374e/Drewno-stare-z-rozbiorki-110lat-deski-Sosna"
+            }
+          ],
+          "price": 40,
+          "seller": {
+            "id": "3",
+            "name": "Albercik Zubek",
+            "is_online": true,
+            "phone": "222 222 222"
+          },
+          "category": {
+            "id": 10,
+            "name": "Drewno"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 12342
+        },
+        {
+          "id": "13",
+          "status": "active",
+          "title": "Rower dziecięcy",
+          "description": "Fajny rowero, nie powiem że nie. Jeździ. Mój numer to 123 123 123",
+          "location": {
+            "name": "Zakopane",
+            "lat": 49.29903,
+            "long": 19.949047
+          },
+          "images": [
+            {
+              "url": "https://i.imged.pl/rower-dzieciecy-kross-zula-12-gratis-2-3452201545.jpg"
+            }
+          ],
+          "price": 450,
+          "seller": {
+            "id": "3",
+            "name": "Albercik Zubek",
+            "is_online": true,
+            "phone": "222 222 222"
+          },
+          "category": {
+            "id": 11,
+            "name": "Rowery"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 2
+        },
+        {
+          "id": "14",
+          "status": "active",
+          "title": "Rower Galaxy MTB",
+          "description": "Rower górski Galaxy Skylab Acera 29. Rowem męski Galaxy Skylab Acera 29. Mój numer to 123 123 123 ",
+          "location": {
+            "name": "Zakopane",
+            "lat": 49.29903,
+            "long": 19.949047
+          },
+          "images": [
+            {
+              "url": "https://image.ceneostatic.pl/data/products/37977320/i-rower-galaxy-mtb-hardtail-skylab-acera-29-2015.jpg"
+            },
+            {
+              "url": "https://thumbs.img-sprzedajemy.pl/1000x901c/6c/26/76/rower-mtb-galaxy-nowy-zamosc-462253426.jpg"
+            }
+          ],
+          "price": 450,
+          "seller": {
+            "id": "3",
+            "name": "Albercik Zubek",
+            "is_online": true,
+            "phone": "222 222 222"
+          },
+          "category": {
+            "id": 11,
+            "name": "Rowery"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 2
+        },
+        {
+          "id": "15",
+          "status": "active",
+          "title": "Dresy męskie",
+          "description": "Dresy czarne. Dobra cena dobra jakość. Mój numer to 123 123 123",
+          "location": {
+            "name": "Zakopane",
+            "lat": 49.29903,
+            "long": 19.949047
+          },
+          "images": [
+            {
+              "url": "https://a.allegroimg.com/s512/11420a/53b4bfa444e5ae89318b7e757da3/SPODNIE-DRESOWE-NIKE-AIR-JORDAN-GRUBE-DRESY-MESKIE"
+            }
+          ],
+          "price": 450,
+          "seller": {
+            "id": "3",
+            "name": "Albercik Zubek",
+            "is_online": true,
+            "phone": "222 222 222"
+          },
+          "category": {
+            "id": 3,
+            "name": "Spodnie"
+          },
+          "added_at": "2019-12-27T07:45:00Z",
+          "valid_to": "2020-07-27T07:45:00Z",
+          "views": 2
         }
-    ]
+      ]
+    }
+  ]
 }
