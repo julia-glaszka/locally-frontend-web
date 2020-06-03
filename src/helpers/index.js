@@ -2,12 +2,12 @@ export const offerTimeFormat = ( time ) => {
   const moment = require('moment')
 
   let formatedTime = null
-  let offerAddedAt = moment( time )
+  let timeMoment = moment.parseZone( time )
 
-  if ( moment().diff( offerAddedAt, 'days', true ) > 1 ) {
-    formatedTime = offerAddedAt.locale("pl").format("DD MMM YYYY")
+  if ( moment().diff( timeMoment, 'days', true ) > 1 ) {
+    formatedTime = timeMoment.locale("pl").format("DD MMM YYYY")
   } else {
-    formatedTime = offerAddedAt.locale("pl").format("[dzisiaj o ]H:mm")
+    formatedTime = timeMoment.locale("pl").format("[dzisiaj o ]H:mm")
   }
 
   return formatedTime

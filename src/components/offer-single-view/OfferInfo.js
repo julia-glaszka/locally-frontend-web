@@ -1,4 +1,5 @@
 import React from 'react';
+import { offerTimeFormat } from 'helpers/index.js'
 
 const OfferInfo = ({offer}) => {
   return <div className="uk-card uk-flex-middle">
@@ -6,12 +7,13 @@ const OfferInfo = ({offer}) => {
     <div className="uk-width-expand">
       <h3 className="uk-card-title ">{offer.title}, {offer.price} PLN</h3>
       <p className="uk-text-meta uk-margin-remove-top">
-        <time dateTime="2016-04-01T19:00">Added At: {offer.added_at}</time>
-      ID: {offer.id}<br/>
-      {offer.location.name} <br/>
-      {offer.category.name}<br/>
-
-      {offer.valid_to}<br/>
+        <time dateTime="2016-04-01T19:00">
+          Added At: { offerTimeFormat( offer.added_at ) }
+        </time>
+        &nbsp;ID: {offer.id}<br/>
+        {offer.location.name} <br/>
+        {offer.category.name}<br/>
+        { offerTimeFormat( offer.valid_to ) }<br/>
       </p>
     </div>
     <p>{offer.description}</p>
@@ -30,7 +32,7 @@ export default OfferInfo;
 //   "title": "Hoodie XS",
 //   "description": "Bluza w rozmiarze XS. Kupiona w sinsay. Dobry stan. Wymiary: w klatce: 60cm, długość: 57cm. Zapraszam do zakupu.",
 //   "location": "Toruń",
-//   "images": [ 
+//   "images": [
 //       {
 //           "url": "https://ae01.alicdn.com/kf/HTB1FQy4acfrK1Rjy1Xdq6yemFXa5/Kobiety-Instagram-projektowania-druku-bluzy-z-kapturem-z-polaru-bluzy-zimowe-Unisex-Hip-Hop-Swag-bluzy.jpg_q50.jpg"
 //       }

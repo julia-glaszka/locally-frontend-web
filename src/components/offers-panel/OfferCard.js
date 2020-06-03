@@ -1,5 +1,5 @@
 import React from 'react';
-import { offerTimeFormat } from '../../helpers/index.js'
+import { offerTimeFormat } from 'helpers/index.js'
 
 const OfferCard = ({offer}) => {
   let userUrl = '/users/' + offer.seller.id
@@ -8,8 +8,6 @@ const OfferCard = ({offer}) => {
     "online": "#00e39b",
     "offline": "#757575"
   }
-
-  console.log( __dirname )
 
   let formatedTime = offerTimeFormat( offer.added_at )
 
