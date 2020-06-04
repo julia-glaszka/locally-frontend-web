@@ -7,7 +7,7 @@ const OffersManagementPage = () => {
   const [offers,
     setOffers] = React.useState([])
 
-    
+
     React.useEffect(() => {
       async function getOffers() {
         let offers
@@ -30,4 +30,3 @@ const OffersManagementPage = () => {
 }
 
 export default OffersManagementPage;
-

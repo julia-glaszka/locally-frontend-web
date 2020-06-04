@@ -15,7 +15,7 @@ const OfferRow = ({offer}) => {
           <div className="uk-width-5-6@s">
             {offer.price}
             PLN
-            <h3 className="uk-card-title">{offer.title}</h3> 
+            <h3 className="uk-card-title">{offer.title}</h3>
           </div>
           <div className="uk-width-1-6@s">
             <span uk-icon="users"></span>{offer.views}
@@ -28,7 +28,7 @@ const OfferRow = ({offer}) => {
             <button className="uk-button uk-button-danger uk-width-auto">DELETE</button>
           </div>
         </div>
-       
+
       </div>
     </div>
 

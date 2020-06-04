@@ -7,21 +7,13 @@ import endpoints from '../../config/endpoints.js';
 const SWITCH_AUTH_TYPE = "SWITCH_AUTH_TYPE"
 const CLEAR_ANIMATION_CONTROLLER = "CLEAR_ANIMATION_CONTROLLER"
 
-const initialState = { authType: "login", animationController: "uk-animation-fade uk-animation-slide-bottom-small" };
+const initialState = { authType: "login" };
 
 function reducer(state, action) {
 	switch (action.type) {
 	  case SWITCH_AUTH_TYPE: {
-			console.log( "sss" )
 			return {
-				authType: action.authType,
-				animationController: "uk-animation-shake"
-			}
-		}
-		case CLEAR_ANIMATION_CONTROLLER: {
-			return {
-				...state,
-				animationController: ""
+				authType: action.authType
 			}
 		}
 	  default:
@@ -128,7 +120,7 @@ const AuthPage = () => {
 
 	return (<>
 		<div className="uk-section uk-overflow-hidden uk-position-large uk-position-center" >
-			<div className={ `uk-flex uk-flex-middle ${ state.animationController }` } onAnimationEnd={ () => dispatch( { type: CLEAR_ANIMATION_CONTROLLER, authType: "register" } ) }>
+			<div className="uk-flex uk-flex-middle uk-animation-fade uk-animation-slide-bottom-small">
 			<div className="uk-width-1-1 uk-box-shadow-large">
 				<div className="uk-grid uk-margin-remove-left">
 					<div className="uk-margin-auto uk-card uk-card-default uk-card-body ">
