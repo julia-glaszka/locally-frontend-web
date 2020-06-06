@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx json-server -p 3333 -w db.json --routes routes.json",
+    "start": "npx json-server -p 3333 -w db.json",
+    "start:auth": "node server.js",
     "test": "echo Error: no test specified && exit 1"
   },
   "author": "",

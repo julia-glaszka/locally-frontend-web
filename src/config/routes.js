@@ -6,7 +6,7 @@ import SingleOfferDetailsPage from '../pages/offers/SingleOfferViewPage';
 import EditSingleOfferPage from '../pages/offers-management/EditSingleOfferPage';
 import OffersPage from '../pages/offers/OffersListPage.js';
 import GalleryListPage from '../pages/gallery/GalleryListPage.js';
-import AuthPage from '../pages/user/AuthPage.js';
+import AuthPage from '../pages/auth/AuthPage.js';
 
 export const routes = [
   {
@@ -24,6 +24,9 @@ export const routes = [
     key: "offers details edition page"
   },
   {
+    protected: true,
+    requiredElement: 'token',
+    redirectTo: '/auth',
     path: "/account/offers",
     component: OffersManagementPage,
     key: "User's offers management panel"

@@ -24,10 +24,10 @@ server.post('/auth/register', register)
 // Login to one of the users from ./users.json
 server.post('/auth/login', login)
 
-server.use(/^(?!\/auth).*$/, authorize)
+server.use('/myOffers', authorize)
 
 server.use(router)
 
-server.listen(8000, () => {
+server.listen(3333, () => {
   console.log('Run Auth API Server')
 })

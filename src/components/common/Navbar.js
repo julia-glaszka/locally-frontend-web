@@ -1,6 +1,11 @@
 import React from 'react';
-
+import { authContext } from '../auth'
+import {useHistory } from 'react-router-dom'
+import {logOut} from '../auth/authService.js'
 const Navbar = () => {
+  const [ authState, authDispatch ] = React.useContext(authContext);
+  const { isLoggedIn, error } = authState;
+  let history = useHistory()
   return <div
     className="uk-box-shadow-large	"
     uk-sticky="">
@@ -8,6 +13,10 @@ const Navbar = () => {
       <nav className="uk-navbar-container uk-navbar" uk-navbar="">
         <div className="uk-navbar-left">
           <a className="uk-navbar-item uk-logo" href="/">Locally</a>
+          {isLoggedIn ? 
+          <span className="uk-navbar-item uk-logo">Zalogowany</span>
+          : <a href="/auth" className="uk-navbar-item uk-logo">Zaloguj sie</a>
+          }
         </div>
         <div className="uk-navbar-right ">
           <ul className="uk-navbar-nav">
@@ -39,8 +48,15 @@ const Navbar = () => {
                     <a href="/account/settings">Settings</a>
                   </li>
                   <hr/>
+    
                   <li>
-                    <a href="/logout">
+                    <a href="/" onClick={e =>{
+                        logOut()
+                      	authDispatch({
+                          type: 'LOGOUT',
+                          payload: {}
+                          })
+                    }}>
                       Log Out
                     </a>
                   </li>

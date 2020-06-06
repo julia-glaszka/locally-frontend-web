@@ -13,7 +13,7 @@ function login(req, res) {
       return
     }
     const access_token = createToken({email, password})
-    console.log("Access Token:" + access_token);
+    console.log({access_token});
     res
       .status(200)
       .json({access_token})

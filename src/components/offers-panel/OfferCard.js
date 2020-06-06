@@ -12,7 +12,7 @@ const OfferCard = ({offer}) => {
 
     <div className="uk-card-media-top">
       <div className="uk-inline">
-        <div className="uk-position-top-left uk-overlay uk-overlay-primary">
+        <div className="uk-position-top-left uk-overlay uk-overlay-primary uk-position-z-index">
           {offer.price}
           PLN
         </div>

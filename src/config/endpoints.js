@@ -2,26 +2,29 @@ import config from './config.js';
 
 const dev = {
     init: () => {},
-    imagesUrl: `${config.apiUrl}/reactive/all`,
-    offersUrl: `${config.apiUrl}/reactive/offers`,
-    userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
-    userOffers: `${config.apiUrl}/reactive/myOffers`
+    imagesUrl: `${config.apiUrl}/all`,
+    offersUrl: `${config.apiUrl}/offers`,
+    userProfileDetailsUrl: `${config.apiUrl}/users`,
+    userOffers: `${config.apiUrl}/myOffers`,
+    login: `${config.apiUrl}/auth/login`
   };
   
   const local = {
     init: () => {},
-    imagesUrl: `${config.apiUrl}/reactive/all`,
-    offersUrl: `${config.apiUrl}/reactive/offers`,
-    userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
-    userOffers: `${config.apiUrl}/reactive/myOffers`
+    imagesUrl: `${config.apiUrl}/all`,
+    offersUrl: `${config.apiUrl}/offers`,
+    userProfileDetailsUrl: `${config.apiUrl}/users`,
+    userOffers: `${config.apiUrl}/myOffers`,
+    login: `${config.apiUrl}/auth/login`
   };
   
   const prod = {
     init: () => {},
-    imagesUrl: `${config.apiUrl}/reactive/all`,
-    offersUrl: `${config.apiUrl}/reactive/offers`,
-    userProfileDetailsUrl: `${config.apiUrl}/reactive/users`,
-    userOffers: `${config.apiUrl}/reactive/myOffers`
+    imagesUrl: `${config.apiUrl}/all`,
+    offersUrl: `${config.apiUrl}/offers`,
+    userProfileDetailsUrl: `${config.apiUrl}/users`,
+    userOffers: `${config.apiUrl}/myOffers`,
+    login: `${config.apiUrl}/auth/login`
   };
   
   let endpoints;
