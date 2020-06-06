@@ -10,7 +10,7 @@ export const authReducer = (state, action) => {
             return {
                 isLoggedIn: false,
                 username: '',
-                error: action.payload.error
+                error: action.payload.message
             };
         case 'LOGOUT':
             return {

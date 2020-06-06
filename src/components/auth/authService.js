@@ -26,10 +26,10 @@ function logIn (email, password) {
         .then (res => {
             if (res.access_token) {
               localStorage.setItem('token', JSON.stringify(res.access_token));
-              return res.access_token;
+              
             }
+            return res;
         })
-
         .catch(e => {
             console.log(e)
         })

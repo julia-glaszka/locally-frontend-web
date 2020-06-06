@@ -90,8 +90,8 @@ const RegisterForm = ( props ) => {
 
 
 
-
 const LoginForm = ( props ) => {
+
 	const { state, dispatch } = props
 	const [ authState, authDispatch ] = React.useContext(authContext);
 	const [login, setLogin] = React.useState('');
@@ -110,6 +110,37 @@ const LoginForm = ( props ) => {
 		}
 	  }, [login, password]);
 
+
+	  function submitForm (e) {
+		e.preventDefault()
+		logIn(login, password)
+		.then(res => {
+			console.log(res)
+			if (res.token && res.token != null) {
+				setError(false);
+				console.log("token not null", res)
+				setHelperText('Login Successfully');
+				authDispatch({
+					type: 'LOGIN',
+					payload: {
+						isLoggedIn: true,
+						token: res.token,
+						error: ''
+					}
+				  })
+				  history.push("/account/offers")
+			} else {
+				setHelperText(res.message)
+				authDispatch({
+					type: 'LOGIN_ERROR',
+					payload: {
+						error: res.message
+					}
+				  })
+			}
+		})
+	} 
+	
 
 
 
@@ -130,28 +161,14 @@ const LoginForm = ( props ) => {
                 className="uk-input uk-form-medium" type="password" placeholder="password"/>
 				</div>
 			</div>
+			<div className="uk-margin">
+				<div className="uk-inline uk-width-1-1">
+					<span className="uk-text-danger">{helperText}</span>
+				
+				</div>
+			</div>
 			<div className="uk-margin uk-text-center">
-				<button  onClick={e => {
-						e.preventDefault()
-						logIn(login, password)
-						.then(token => {
-							console.log(token)
-							if (token && token != null) {
-								setError(false);
-								console.log("token not null", token)
-								setHelperText('Login Successfully');
-								authDispatch({
-									type: 'LOGIN',
-									payload: {
-										isLoggedIn: true,
-										token: token,
-										error: ''
-									}
-								  })
-								  history.push("/account/offers")
-							}
-						})
-					}} className="uk-button uk-button-primary uk-button-medium uk-width-2-3 uk-border-pill" 
+				<button onClick={submitForm} className="uk-button uk-button-primary uk-button-medium uk-width-2-3 uk-border-pill" 
 					disabled={isButtonDisabled}>Login</button>
 			</div>
 			<div className="uk-text-small uk-text-center">
