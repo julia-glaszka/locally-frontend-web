@@ -1,7 +1,7 @@
 import React from 'react';
 import Picture from './Picture.js';
 
-const GalleryPanel = ({images, title}) => {
+const GalleryPanel = ({images = [], title}) => {
   
   return images ? <div className="uk-container">
     <h2 className="uk-margin-medium-top uk-text-bolder uk-text-uppercase ">

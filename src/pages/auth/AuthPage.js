@@ -116,7 +116,7 @@ const LoginForm = ( props ) => {
 		logIn(login, password)
 		.then(res => {
 			console.log(res)
-			if (res.token && res.token != null) {
+			if (res.access_token && res.access_token != null) {
 				setError(false);
 				console.log("token not null", res)
 				setHelperText('Login Successfully');
@@ -124,7 +124,7 @@ const LoginForm = ( props ) => {
 					type: 'LOGIN',
 					payload: {
 						isLoggedIn: true,
-						token: res.token,
+						token: res.access_token,
 						error: ''
 					}
 				  })

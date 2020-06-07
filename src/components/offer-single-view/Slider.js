@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Slider = ({images}) => {
+const Slider = ({images = []}) => {
   return images
     ?   <div
           className=" uk-position-relative uk-visible-toggle uk-light"

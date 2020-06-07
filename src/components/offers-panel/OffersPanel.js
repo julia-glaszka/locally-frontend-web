@@ -1,7 +1,7 @@
 import React from 'react';
 import OfferCard from './OfferCard.js';
 
-const OffersPanel = ({title, offers}) => {
+const OffersPanel = ({title, offers = []}) => {
   return <div className="uk-container" >
     <h2 className="uk-margin-medium-top uk-text-bolder uk-text-uppercase ">
       {title} 
