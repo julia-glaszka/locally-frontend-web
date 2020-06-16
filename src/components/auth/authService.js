@@ -5,20 +5,18 @@ function logIn (email, password) {
         "email": email,
         "password": password
     }
-
     let config = {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(credentials) // body data type must match "Content-Type" header
+        body: JSON.stringify(credentials) 
       }
     return fetch(endpoints.login, config)
         .then( res => res.json())
         .then (res => {
             if (res.access_token) {
               localStorage.setItem('token', JSON.stringify(res.access_token));
-              
             }
             return res;
         })
@@ -30,7 +28,6 @@ function logIn (email, password) {
 function logOut () {
     localStorage.removeItem('token');
 }
-
 
 export {
     logIn, logOut

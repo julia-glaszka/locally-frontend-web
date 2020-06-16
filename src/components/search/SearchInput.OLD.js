@@ -2,7 +2,6 @@ import React from 'react';
 import {useHistory} from "react-router-dom";
 import useDebounce from './useDebounce.js'
 import classNames from "classnames";
-import SearchInputView from './SearchInputView.js'
 const SearchInput = () => {
   let [suggestions,
     setSuggestions] = React.useState([]);
@@ -12,14 +11,13 @@ const SearchInput = () => {
     setSearched] = React.useState("");
 
   let history = useHistory();
+
   function handleSelect(suggestion) {
-    console.log("handleselect", suggestion)
+    console.log(suggestion)
     setSearched(suggestion)
 
   }
-  console.log("suggestion is" + searched)
   function onSearchSubmit(e) {
-    console.log("onsearchsubmit")
     e.preventDefault()
     console.log("his", history)
     console.log("searched", searched)
@@ -32,15 +30,9 @@ const SearchInput = () => {
     }
  
   }
-  function onChange (e) { 
-
-    console.log("setting searched (onchange)", e.target.value)
-    setSearched(e.target.value)
-  }
   const debouncedSearchTerm = useDebounce(searched, 500);
 
   React.useEffect(() => {
-
     if (debouncedSearchTerm) {
       searchSuggestions(debouncedSearchTerm).then(results => {
         setSuggestions(results);
@@ -57,12 +49,46 @@ const SearchInput = () => {
     }
   }, [debouncedSearchTerm]);
 
-  return <SearchInputView onChange={onChange} 
-          searched={searched}
-          isExpanded={isExpanded} 
-          handleSelect={handleSelect} 
-          onSearchSubmit={onSearchSubmit}
-          suggestions={suggestions}/>
+  return <form id="search-form" action="" onSubmit={onSearchSubmit}>
+      <div className="uk-inline uk-width-1-1">
+        <span className="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: search"></span>
+        <div className="uk-position-relative">
+          <input
+            type="search"
+            value={searched}
+            onChange={e => setSearched(e.target.value)}
+            placeholder="Type your search"
+            className={classNames("uk-border-pill", 
+            "uk-input", "uk-width-1-1", 
+            "search-fld", "uk-padding-remove-bottom",
+            { whenVisible: isExpanded }
+            )}          
+            autoFocus/>
+
+          <div
+          className="suggestion-container">
+            <ul
+              className={classNames("default-list", "uk-background-primary", { 
+              whenVisible: isExpanded,
+              whenInvisible: !isExpanded
+              }
+              )}>
+              { suggestions
+                ? suggestions.map(suggestion => 
+                <li
+                  onClick={e => handleSelect(suggestion)}>
+                  {suggestion}
+                </li>)
+                : ""}
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </form>
+
+ ;
+
 }
 
 function searchSuggestions(searched) {

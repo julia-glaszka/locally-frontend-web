@@ -1,5 +1,5 @@
 import React from "react";
-
+import { isLoggedIn, getToken } from './utils.js'
 
 const initialState = {
     isLoggedIn: isLoggedIn(),
@@ -8,19 +8,6 @@ const initialState = {
   }
 
 const AuthContext = React.createContext(initialState);
-
-  
-function getToken() {
-    return JSON.parse(localStorage.getItem('token'))
-  }
-
-
-function isLoggedIn() {
-    return getToken()
-      ? true
-      : false;
-  }
-
 
 
 const authReducer = (state, action) => {
@@ -36,8 +23,6 @@ const authReducer = (state, action) => {
       return state;
   }
 };
-
-
 
 const AuthProvider = ({children}) => {
   const [state,

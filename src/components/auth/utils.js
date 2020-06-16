@@ -1,8 +1,8 @@
 function isLoggedIn () {
-    if (localStorage.getItem('token')) {
+    if (getToken()) {
         return true;
-      }
-      return false;
+    }
+    return false;
 }
 
 
