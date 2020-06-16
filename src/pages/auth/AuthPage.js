@@ -3,7 +3,7 @@ import UserProfile from '../../components/user-profile/UserProfile.js';
 import get from '../../services/apiService.js';
 import { useParams, Route } from 'react-router-dom';
 import  endpoints  from '../../config/endpoints.js';
-import {authContext} from '../../components/auth';
+import {AuthContext} from '../../components/auth/AuthProvider.js';
 import {logIn, logOut} from '../../components/auth/authService.js'
 import {useHistory} from 'react-router-dom'
 
@@ -93,7 +93,11 @@ const RegisterForm = ( props ) => {
 const LoginForm = ( props ) => {
 
 	const { state, dispatch } = props
-	const [ authState, authDispatch ] = React.useContext(authContext);
+	const {state: authState, dispatch: authDispatch } = React.useContext(AuthContext);
+	// console.log("state", authState)
+	// console.log("dispatch", authDispatch )
+
+
 	const [login, setLogin] = React.useState('');
 	const [password, setPassword] = React.useState('');
 	const [error, setError] = React.useState(false);

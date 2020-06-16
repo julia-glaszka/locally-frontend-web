@@ -1,13 +1,5 @@
 import  endpoints  from '../../config/endpoints.js'
 
-function isLoggedIn () {
-    if (localStorage.getItem('token')) {
-        return true;
-      }
-      return false;
-}
-
-
 function logIn (email, password) {
     let credentials =  {
         "email": email,

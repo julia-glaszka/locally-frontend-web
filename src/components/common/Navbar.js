@@ -1,13 +1,16 @@
 import React from 'react';
-import { authContext } from '../auth'
+import {  AuthContext } from '../auth/AuthProvider.js'
 import {useHistory } from 'react-router-dom'
-import {logOut} from '../auth/authService.js'
+
+import AvatarNavButton from './AvatarNavButton';
 const Navbar = () => {
-  const [ authState, authDispatch ] = React.useContext(authContext);
-  const { isLoggedIn, error } = authState;
+  const {state, dispatch} = React.useContext(AuthContext);
+  const { isLoggedIn, error } = state;
+  // let isLoggedIn = true
+  console.log("hey", state)
   let history = useHistory()
   return <div
-    className="uk-box-shadow-large	"
+    className="uk-box-shadow-large"
     uk-sticky="">
     <div>
       <nav className="uk-navbar-container uk-navbar" uk-navbar="">
@@ -19,56 +22,13 @@ const Navbar = () => {
           }
         </div>
         <div className="uk-navbar-right ">
-          <ul className="uk-navbar-nav">
-            <li className="">
-                <span className="uk-visible@m uk-margin-right">Joannah Cz.</span>
-                <img
-                  src="https://getuikit.com/docs/images/avatar.jpg"
-                  width="32px"
-                  className="uk-border-circle"
-                  alt="user"/>
-              <div className="uk-navbar-dropdown uk-navbar-dropdown-bottom-right">
-                <ul className="uk-nav uk-navbar-dropdown-nav">
-                  <li>
-                    <a href="/account/offers">offers</a>
-                  </li>
-                  <li>
-                    <a href="/account/pinned">Pinned</a>
-                  </li>
-                  <li >
-                    <a href="/account/pictures">Pictures</a>
-                  </li>
-                  <li >
-                    <a href="/account/announcements">Announcements</a>
-                  </li>
-                  <li >
-                    <a href="/account/groups">Groups</a>
-                  </li>
-                  <li >
-                    <a href="/account/settings">Settings</a>
-                  </li>
-                  <hr/>
-    
-                  <li>
-                    <a href="/" onClick={e =>{
-                        logOut()
-                      	authDispatch({
-                          type: 'LOGOUT',
-                          payload: {}
-                          })
-                    }}>
-                      Log Out
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+         <AvatarNavButton/>
         </div>
       </nav>
     </div>
   </div>
 
 }
+
 
 export default Navbar;

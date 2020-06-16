@@ -14,11 +14,13 @@ export const routes = [
     path: "/",
     component: MainPage,
     key: "Main",
-  }, {
+  }, 
+  {
     path: "/users/:id",
     component: UserProfilePage,
     key: "User Profile Details"
-  },  {
+  }, 
+  {
     path: "/account/offers/:id/edit",
     component: EditSingleOfferPage,
     key: "offers details edition page"
@@ -28,6 +30,7 @@ export const routes = [
     requiredElement: 'token',
     redirectTo: '/auth',
     path: "/account/offers",
+    exact: true,
     component: OffersManagementPage,
     key: "User's offers management panel"
   },

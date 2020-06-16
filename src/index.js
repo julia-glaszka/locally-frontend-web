@@ -1,31 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './components/common/Navbar.js';
-import CustomFooter from './components/common/CustomFooter.js';
 import './index.scss';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
-import { routes } from "./config/routes.js";
-import ProtectedRoute from './components/auth/ProtectedRoute.js';
-import { AuthProvider, authReducer, authState } from './components/auth'
+
+import { AuthProvider } from './components/auth/AuthProvider.js'
+import { App } from './App';
 const Application = () => {
-  const useAuth = React.useReducer(authReducer, authState);
+
   return (<React.StrictMode>
-          <AuthProvider value={useAuth}>
-            <Navbar/>
-            <Router>
-              <div style={{minHeight: "100vh"}}>
-                <Switch>
-                {routes.map(route => (
-                (route.protected === true) ? <ProtectedRoute {...route} />: <Route {...route} />
-                ))}
-                </Switch>
-              </div>
-            </Router>
-            <CustomFooter/>
-          </AuthProvider>
-  </React.StrictMode>)
+              <AuthProvider>
+                  <App/>
+              </AuthProvider>
+          </React.StrictMode>)
 }
+
+
 ReactDOM.render(
   <Application/>,
   document.getElementById('root')

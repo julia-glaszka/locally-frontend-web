@@ -1,3 +1,11 @@
+function isLoggedIn () {
+    if (localStorage.getItem('token')) {
+        return true;
+      }
+      return false;
+}
+
+
 function getToken () {
     return JSON.parse(localStorage.getItem('token'))
 }
@@ -12,4 +20,4 @@ function getAuthHeader () {
 }
 
 
-export {getAuthHeader}
+export {isLoggedIn, getToken, getAuthHeader}
