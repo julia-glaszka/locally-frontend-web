@@ -32,7 +32,9 @@ const AvatarNavButton = ({user = { name: 'unknown'}}) => {
 
 return <ul className="uk-navbar-nav">
             <li className="">
-              <span className="uk-visible@m uk-margin-right">{user.name}</span>
+              <span className="uk-visible@m uk-margin-right">
+                {/* {user.name} */}
+                </span>
                 <CircleAvatar image={user.imageUrl}/>
                 <div className="uk-navbar-dropdown uk-navbar-dropdown-bottom-right">
                     <ul className="uk-nav uk-navbar-dropdown-nav">

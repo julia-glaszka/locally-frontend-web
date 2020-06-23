@@ -14,6 +14,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser. I
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+# Running project
+### With auth
+In root directory
+``` js 
+npm run start:local
+```
+
+``` js 
+cd fake-backend
+npm run start:auth
+```
+
+
+### Without auth
+In root directory
+``` js 
+npm run start:local
+```
+
+``` js 
+cd fake-backend
+npm run start
+```
+
 ## Docs 
 ```npm run styleguide```
 

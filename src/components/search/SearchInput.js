@@ -1,7 +1,6 @@
 import React from 'react';
 import {useHistory} from "react-router-dom";
 import useDebounce from './useDebounce.js'
-import classNames from "classnames";
 import SearchInputView from './SearchInputView.js'
 const SearchInput = () => {
   let [suggestions,
