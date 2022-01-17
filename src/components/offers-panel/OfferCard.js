@@ -1,5 +1,5 @@
 import React from 'react';
-import { offerTimeFormat } from 'helpers/index.js'
+import { offerTimeFormat } from '../../helpers/index.js'
 
 const OfferCard = ({offer}) => {
   let userUrl = '/users/' + offer.seller.id
@@ -20,8 +20,8 @@ const OfferCard = ({offer}) => {
           {offer.price}
           PLN
         </div>
-        <div class="image-cover-container  uk-height-medium">
-          <img class="card-cover" src={offer.images[0].url} alt="x"/>
+        <div className="image-cover-container  uk-height-medium">
+          <img className="card-cover" src={offer.images[0].url} alt="x"/>
         </div>
       </div>
     </div>
@@ -29,10 +29,10 @@ const OfferCard = ({offer}) => {
     <div className="uk-card-body">
       <h3 className="uk-card-title uk-margin-remove-bottom"><a href={offerUrl}>{offer.title}</a></h3>
 
-      <p  class="uk-padding-remove-top uk-margin-remove-top">
+      <p  className="uk-padding-remove-top uk-margin-remove-top">
       {offer.category.name}
       </p>
-      <p class="uk-padding-remove-top">
+      <p className="uk-padding-remove-top">
    <a href={userUrl}>
         <span >{offer.seller.name} </span>
         { offer.seller.is_online ?

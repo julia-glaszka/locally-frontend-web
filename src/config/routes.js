@@ -10,48 +10,48 @@ import AuthPage from '../pages/user/AuthPage.js';
 
 export const routes = [
   {
-    exact: true,
-    path: "/",
-    component: MainPage,
+    // exact: true,
+    path: '/',
+    element: <MainPage/>,
     key: "Main",
   }, {
     path: "/users/:id",
-    component: UserProfilePage,
+    element: <UserProfilePage/>,
     key: "User Profile Details"
   },  {
     path: "/account/offers/:id/edit",
-    component: EditSingleOfferPage,
+    element: <EditSingleOfferPage/>,
     key: "offers details edition page"
   },
   {
     path: "/account/offers",
-    component: OffersManagementPage,
+    element: <OffersManagementPage/>,
     key: "User's offers management panel"
   },
   {
     path: "/offers/:id",
-    component: SingleOfferDetailsPage,
+    element: <SingleOfferDetailsPage/>,
     key: "offers details"
   },
   {
     path: "/offers",
-    component: OffersPage,
+    element: <OffersPage/>,
     key: "offers"
   },
   {
     path: "/gallery",
-    component: GalleryListPage,
+    element: <GalleryListPage/>,
     key: "Gallery of images"
   },
   {
     path: "/auth",
-    component: AuthPage,
+    element: <AuthPage/>,
     key: "Authentication page"
   },
   {
     exact: true,
     path: "*",
-    component: NotFoundPage,
+    element: <NotFoundPage/>,
     key: "Error 404"
   }
 ];

@@ -1,8 +1,8 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const NotFound = () => {
-    let history = useHistory();
+    let history = useNavigate();
   return <div> <div className="uk-section-large">
       <div className="uk-container uk-container-large">
           <div  className="uk-grid-collapse uk-grid-match uk-grid uk-grid-stack">

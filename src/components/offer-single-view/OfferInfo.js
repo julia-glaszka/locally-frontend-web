@@ -1,5 +1,5 @@
 import React from 'react';
-import { offerTimeFormat } from 'helpers/index.js'
+import { offerTimeFormat } from './../../helpers/index.js'
 
 const OfferInfo = ({offer}) => {
   return <div className="uk-card uk-flex-middle">

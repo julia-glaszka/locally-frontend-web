@@ -1,5 +1,5 @@
 import React from 'react';
-import {useHistory} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import useDebounce from './useDebounce.js'
 import classNames from "classnames";
 const SearchInput = () => {
@@ -10,7 +10,7 @@ const SearchInput = () => {
   const [searched,
     setSearched] = React.useState("");
 
-  let history = useHistory();
+  let history = useNavigate();
 
   function handleSelect(suggestion) {
     console.log(suggestion)

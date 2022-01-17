@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Navbar from './components/common/Navbar.js';
 import CustomFooter from './components/common/CustomFooter.js';
 import './index.scss';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import { routes } from "./config/routes.js";
 require('moment/locale/pl')
@@ -16,11 +16,11 @@ ReactDOM.render(
 
   <Router>
     <div style={{minHeight: "100vh"}}>
-      <Switch>
+      <Routes>
       {routes.map(route => (
         <Route {...route} />
       ))}
-      </Switch>
+      </Routes>
     </div>
   </Router>
   <CustomFooter/>

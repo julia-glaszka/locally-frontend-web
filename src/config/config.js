@@ -1,7 +1,7 @@
 const dev = {
   init: () => {},
   useSSO: false,
-  apiUrl: 'http://localhost:8080'
+  apiUrl: 'http://localhost:3333'
 };
 
 const local = {

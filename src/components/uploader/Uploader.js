@@ -26,7 +26,7 @@ const Uploader = () => {
 }
 
 const upload = (file) => {
-  fetch('http://localhost:8080/reactive/new', {
+  fetch('http://localhost:3333/reactive/new', {
     method: 'POST',
     headers: {},
       body: file
